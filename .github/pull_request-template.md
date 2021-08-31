@@ -1,5 +1,5 @@
 <!--
-(Thanks for sending a pull request!)
+(Thanks for sending a pull request! If you have fixed any kind of typo or grammatical error then please Name your pull request in the format of "fixed typo: <name-of-the-lesson>".)
 -->
 
 <!-- Add the issue number that is fixed by this PR (In the form Fixes #123) -->

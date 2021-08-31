@@ -1,13 +1,13 @@
 name: Docs request
 description: Suggest lesson, propose new data-structure and algorithms, discuss new ideas
-title: "[FEATURE] <description>"
+title: "new lesson: <name-of-the-lesson>"
 labels: ["⭐ goal: addition"]
 body:
   - type: textarea
     id: requesttype
     attributes:
       label: ⭐ Request Type
-      description: name of the lesson or section you wanted to add.
+      description: describe the name of the lesson or section you want to add.
     validations:
       required: true
   - type: textarea
