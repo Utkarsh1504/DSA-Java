@@ -1,6 +1,6 @@
 ---
 path: "/assignment"
-title: "Assigments"
+title: "Assignments"
 order: "22A"
 section: "Assignments & Practise Question"
 description: "practise some standard question"
