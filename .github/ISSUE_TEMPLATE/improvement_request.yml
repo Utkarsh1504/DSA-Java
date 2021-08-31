@@ -1,6 +1,6 @@
-name: Feature request
+name: Improvement request
 description: propose improvements, adding new code, or any new features
-title: "[FEATURE] <description>"
+title: "[Improve] <description>"
 labels: ["⭐ goal: addition"]
 body:
   - type: textarea
