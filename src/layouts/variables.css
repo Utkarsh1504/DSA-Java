@@ -1,0 +1,32 @@
+/* 
+  change your syntax highlighting theme here
+  https://github.com/PrismJS/prism/tree/master/themes 
+*/
+@import "prismjs/themes/prism-solarizedlight.css";
+
+:root {
+  --primary: #4fa4e2;
+  --secondary: #fed7aa;
+  --highlight: #0b151e;
+  --lesson: #713f12;
+
+  --text-header: var(--primary);
+  --text-main-headers: var(--highlight);
+  --text-links: #1d608f;
+  --text-footer: #05304f;
+
+  --bg-main: white;
+  --bg-dots: var(--primary);
+  --bg-lesson: white;
+  --bg-lesson-preface: var(--primary);
+
+  --nav-buttons: var(--highlight);
+  --nav-buttons-text: white;
+
+  --corner-active: var(--highlight);
+  --corner-inactive: #f4f4f4;
+  --icons: var(--highlight);
+
+  --emphasized-bg: #dce8ff;
+  --emphasized-border: #aab6d2;
+}

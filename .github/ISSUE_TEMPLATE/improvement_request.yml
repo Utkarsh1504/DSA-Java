@@ -1,0 +1,32 @@
+name: Feature request
+description: propose improvements, adding new code, or any new features
+title: "[FEATURE] <description>"
+labels: ["⭐ goal: addition"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: ⭐ Summary
+      description: A brief summary of what you'd like to see added or improved.
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: 💻 Location
+      description: |
+        Describe where or in which section/lesson you want to do improvements.
+    validations:
+      required: true
+  - type: textarea
+    id: additionalinfo
+    attributes:
+      label: ❌ Additional Info
+      description: |
+        Any additional information you'd like to provide.
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        You can also join the Discord community [here](#)
