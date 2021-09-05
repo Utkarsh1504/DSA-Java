@@ -90,7 +90,7 @@ Switch statements are used to execute different code depending on the value of a
 
 #### Semantics
 
-```cpp
+```java
     // syntax
 
     switch (expression) {
@@ -130,5 +130,8 @@ Above is the basic syntax of switch statements. Let's see some examples to under
                     break;
             }
         }
-    }
+``` lets understand how switch statement work
+   The body of a switch statement is known as a switch block. A statement in the switch block can be labeled with one or more case or default labels. The switch statement evaluates its expression, then executes all statements that follow the matching case label. In the above program the variable a is intialised to the value 10 and the expression is evalutes only the variable a. It starts with the switch expression where the variable is placed whose value is to be checked against case values, then it goes to case 1, compare the values, if the value matches it goes on to execute the statement 1 and then it executes break statement which brings the switch block to end so no more case testing is done, saves the extra computation as we got our desired result. Now if the values do not match it goes to the next case and follows the same steps and if none of the case values matches the value of the variable, it executes the default statement.
+                        The value a is not equal to the 1 hence this will not execute. Similary all cases in the switch statement
+                        skipped and at last the default block will be executed
 ```
