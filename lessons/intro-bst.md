@@ -40,7 +40,7 @@ Then the contents of this in-order successor are copied to the node to be delete
 Finally, the in-order successor is deleted
 <br>
 
-## Let's see the implementation of Binary Search Tree using an example:
+Let's see the implementation of Binary Search Tree using an example:
 
 ```java
 // Java implementation of recursive Binary Search
