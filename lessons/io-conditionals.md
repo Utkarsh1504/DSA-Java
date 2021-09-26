@@ -20,15 +20,14 @@ Okay so let's learn about the control flow of a Java program.
 
 Let's go through the code line by line.
 
-- `#include` is a preprocessor directive that includes a header file. `#`(hash) is a special character that is used to indicate that the rest of the line is a preprocessor directive.
-- `iostream` is a header file that contains the input/output class.
-- `using namespace std;` is a preprocessor directive that tells the compiler to use the standard library. `using` is a keyword that is used to tell the compiler to use a namespace. `std` is a namespace that contains the standard library.
-- `int main()` is a function definition. The execution of a program begins with the execution of the main function and it is mandatory for a C++ program.
-- `cout << "Hello World!" << endl;` is a function call. `cout` is the output stream, `<<`(Insertion Operator) is a function call, and `Hello World!` is the string to be output. `<<`(Extraction Operator) is a left-to-right operator and `endl` is used to add a line break.
-- `return 0;` is a function return and `0` is the return value.
-- `{` is the start of a block and inside the block is known as **Function body**.
-- `}` is the end of the function.
-- `;` is the end of the line and also it is very important that the line ends with a semicolon otherwise the compiler will give an error.
+- **``public static void main(String[] args)``** Java main method is the entry point of any java program. You can only change the name of String array argument, for example you can change ``args`` to ``myStringArgs``.
+- **``public``** This is the access modifier of the main method.It has to be ``public`` so that java runtime can execute this method. Remember that if you make any method non-public then it’s not allowed to be executed by any program, there are some access restrictions applied. So it means that the main method has to be public.
+- **``Static``** When java runtime starts, there is no object of the class present. That’s why the main method has to be static so that JVM can load the class into memory and call the main method. If the main method won’t be static, JVM would not be able to call it because there is no object of the class is present.
+- **``Void``** Java programming mandates that every method provide the return type. Java main method doesn’t return anything, that’s why it’s return type is void. This has been done to keep things simple because once the main method is finished executing, java program terminates. So there is no point in returning anything, there is nothing that can be done for the returned object by JVM. If we try to return something from the main method, it will give compilation error as an unexpected return value.
+- **``Main``** method is similar to the main function in C and C++.
+The ``main`` method accepts a single argument: an array of elements of type String.
+- **``String[] args``** Java main method accepts a single argument of type String array. This is also called as java command line arguments.
+- **``System.out.println("Hello, World");``** Outputs the string “Hello, World” followed by a new line on the screen.Output is actually accomplished by the built-in println( ) method. ``System`` is a predefined class that provides access to the system, and ``out`` is the variable of type output stream that is connected to the console.
 
 Okay that's a lot of information to digest and it is the basic for a C++ program. Now let's move on to the next section.
 
@@ -80,9 +79,29 @@ Lets go through the if-else code line by line.
 
 ok so that's all. now let's see some more examples.
 
-```cpp
-    // code goes here
+```java
+    //A Java Program to demonstrate the use of if-else statement.  
+    //It is a program of odd and even number.  
+    public class IfElseClass {  
+        public static void main(String[] args) {  
+        //defining a variable  
+        int number=13;  
+        //Check if the number is divisible by 2 or not  
+        if(number%2==0){  
+            System.out.println("even number");  
+        }
+        else{  
+            System.out.println("odd number");  
+        }  
+    }  
+}  
 ```
+
+Let's go through the code line by line.
+
+- `if` is the keyword that indicates that the code block is an if statement. `(number%2==0)` is the condition. we can have multiple conditions in a single if statement. we're checking if  ``number`` is divisible by ``2``  if this turn out to be true then the code block under the if statement will be executed, if not then we'll move on the next statement.
+- `else` is the keyword that indicates that the code block is an else statement. if the condition from the above statements are turn out to be false then the code block under the else statement will be executed.
+
 
 ## **Switch Statements**
 
@@ -100,7 +119,6 @@ Switch statements are used to execute different code depending on the value of a
         case value2:
             // code to execute if expression is value2
             break;
-        ...
         default:
             // code to execute if expression is not value1 or value2
             break;
