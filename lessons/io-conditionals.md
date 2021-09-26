@@ -20,16 +20,18 @@ Okay so let's learn about the control flow of a Java program.
 
 Let's go through the code line by line.
 
-- **``public static void main(String[] args)``** Java main method is the entry point of any java program. You can only change the name of String array argument, for example you can change ``args`` to ``myStringArgs``.
-- **``public``** This is the access modifier of the main method.It has to be ``public`` so that java runtime can execute this method. Remember that if you make any method non-public then it’s not allowed to be executed by any program, there are some access restrictions applied. So it means that the main method has to be public.
-- **``Static``** When java runtime starts, there is no object of the class present. That’s why the main method has to be static so that JVM can load the class into memory and call the main method. If the main method won’t be static, JVM would not be able to call it because there is no object of the class is present.
+- **``public static void main(String[] args)``** Java main method is the entry point of any Java program. You can only change the name of String array argument, for example you can change ``args`` to ``myStringArgs``.
+- **``public``** This is the access modifier of the main method. It has to be ``public`` so that Java Runtime Environment(JRE) can execute this method. Remember that if you make any method non-public then it’s not allowed to be executed by any program, there are some access restrictions applied. So it means that the main method has to be public.
+- **``Static``** When JRE starts, there is no object of the class present. That’s why the main method has to be static so that JVM can load the class into memory and call the main method. If the main method won’t be static, JVM would not be able to call it because there is no object of the class is present.
 - **``Void``** Java programming mandates that every method provide the return type. Java main method doesn’t return anything, that’s why it’s return type is void. This has been done to keep things simple because once the main method is finished executing, java program terminates. So there is no point in returning anything, there is nothing that can be done for the returned object by JVM. If we try to return something from the main method, it will give compilation error as an unexpected return value.
 - **``Main``** method is similar to the main function in C and C++.
 The ``main`` method accepts a single argument: an array of elements of type String.
 - **``String[] args``** Java main method accepts a single argument of type String array. This is also called as java command line arguments.
 - **``System.out.println("Hello, World");``** Outputs the string “Hello, World” followed by a new line on the screen.Output is actually accomplished by the built-in println( ) method. ``System`` is a predefined class that provides access to the system, and ``out`` is the variable of type output stream that is connected to the console.
 
-Okay that's a lot of information to digest and it is the basic for a C++ program. Now let's move on to the next section.
+> System, out, println these are default classes and methods built into Java. If you want to read docs do a `ctrl+click` (IntelliJ Idea) on them.
+> 
+Okay that's a lot of information to digest and it is the basic for a Java program. Now let's move on to the next section.
 
 ## **If-Else Statements**
 
@@ -41,7 +43,7 @@ It will be really easy to understand as we will see in the following example.
 
 if-else statements are written as follows.
 
-```cpp
+```java
     // syntax
     if (condition) {
         // Code to execute if condition is true
@@ -85,9 +87,9 @@ ok so that's all. now let's see some more examples.
     public class IfElseClass {  
         public static void main(String[] args) {  
         //defining a variable  
-        int number=13;  
+        int number = 13;  
         //Check if the number is divisible by 2 or not  
-        if(number%2==0){  
+        if(number % 2 == 0){  
             System.out.println("even number");  
         }
         else{  
@@ -109,7 +111,7 @@ Switch statements are used to execute different code depending on the value of a
 
 #### Semantics
 
-```cpp
+```java
     // syntax
 
     switch (expression) {
