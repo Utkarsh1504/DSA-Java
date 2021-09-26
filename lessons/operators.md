@@ -70,7 +70,7 @@ Relational operators are used to compare the values of two operands. They are us
 
 Logical operators are used to perform logical operations. They are used to perform the following operations:
 
-- `&&` and `&`: Java unlike many other languages has two AND operators to perform logical AND operation. It returns true if both the operands (being compared) have a truthy value.Even though both the `&` and `&&` operators perform the same AND operation ; the `&&` operator can improve the efficiency of your code since it evaluates the second expression only if the first expression is true unlike the `&` operator which evaluates the second expression nonetheless. 
+- `&&` and `&`: Java unlike many other languages has two AND operators to perform logical AND operation. It returns true if both the operands (being compared) have a truthy value.Even though both the `&` and `&&` operators perform the same AND operation ; the `&&` operator is a logical operator and it  can improve the efficiency of your code since it evaluates the second expression only if the first expression is true unlike the bitwise `&` operator which evaluates the second expression nonetheless. 
 
 - `||` and `|`: OR used to perform logical OR operation. It returns true if either of the operands have a truthy value. The difference between `|` and `||` is that the `|` operator is a bitwise operator and it compares each operand bitwise whereas the `||` operator is the logical OR operator. It operates on both the operands and returns true if either of the operands have a truthy value. 
 - `!`: NOT used to perform logical NOT operation. It gives true if the operand has false value.
