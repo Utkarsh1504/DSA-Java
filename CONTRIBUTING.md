@@ -1,4 +1,4 @@
-# Contributing to DS-Algo
+# Contributing to DSA-Java
 
 First of all, thanks for taking the time to contribute! This project can only grow and live by your countless contributions. To keep this project maintainable, we have developed some guidelines for our contributors.
 
@@ -30,7 +30,7 @@ The crux of this site is are the `lesson`. Provided are two examples. Each lesso
     title: "TitleName"
     order: "<Number><CapitalLetter>"
     section: "SectionName"
-    description: "Learn DS-Algo/C++"
+    description: "Learn DSA-Java"
     ---
 ```
 
@@ -55,7 +55,7 @@ for requesting a lesson simply raise a new issue in the `Issues` section.
 - Search for other issues already requesting the lesson.
 - If an issue doesn't exist, create an issue naming it `new lesson: <name-of-the-lesson>`
 - provide description as mentioned in issue template.
-- Please create separate issues for each icon
+- Please create separate issues for any concept or lesson that you want to add.
 
 ## Fixing Typos
 

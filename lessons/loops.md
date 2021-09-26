@@ -6,12 +6,9 @@ section: "Learn Java"
 description: "Learn java"
 ---
 
-Loops are a way to repeat a block of code. It is used to remove repetitive code and to make code more readable. There are two ways for iteration in C++.
+Loops are a way to repeat a block of code. It is used to remove repetitive code and to make code more readable. It is a way to write iterative code.
 
-- Loops
-- Recursion
-
-There are three types of loops in C++.
+There are three types of loops in Java.
 
 - For
 - While
@@ -23,7 +20,7 @@ For loops are used to iterate over a range of numbers. In this loop, the range i
 
 #### Semantics
 
-```cpp
+```java
     // syntax
 
     for (initialization; condition; update){
@@ -52,24 +49,57 @@ Ok so let's see how to use for loops in writing a program.
 
 so let's analyze the code.
 
-- firstly we declare a variable `n` and assign it a value from the user using the `cin` function which is a part of the standard library.
-- `cin >> n` is a statement that take input the value of `n` from the user.
-- then we declare one more variable `sum` and assign it a value of 0 because we are starting from the first number so at that time we don't have any sum.
-- then we use a `for` loop to iterate over the range of numbers from 0 to the value of `n` (in this case `n` is the value of `n`). this loop will run for `n` times ( starting from 0 to `n-1` total n times).
-- `i` is initialized with 0 (you can initialize it with any value you want but keep in mind you have to change the condition `i < n` according to that). and then we update the value of `i` by adding 1 each time.
-- inside the body of the loop we assigned the value of `i` to the `sum` variable. `sum += i` is another way of writing `sum = sum + i` and it is a way to add the value of `i` to the value of `sum`.
-  each time value of `i` will get incemented by 1 and then it will be added to the `sum`.
-- finally we print the value of `sum` to the screen.
+- we have initialized the variable `sum` to 0.
+- then we used `for` loop:
 
-And that's all. I'll add some question at the end.
+  - In the initialization, we have initialized the variable `i` to 0(`int i=0;`). This step is completely optional. You can also do the initialization before the loop. In that that would be look like:
+
+  ```java
+      int sum = 0;
+      int i = 0;
+      for (; i < 10; i++) {
+          ....
+  ```
+
+  or something like that.
+
+  ```java
+      int i;
+      for (i = 0; i < 10; i++) {
+  ```
+
+  - In the condition, it checks if `i` is less than 10. The condition checks if the loop should continue or not and this is not optional, you have to provide condition. In this case we have given a sigle condition `i < 10`. we can also have multiple conditions like `i < 10 && i > 0`. for multiple conditions, we need to use logical operator to combine them.
+
+  ```java
+        int sum = 0;
+        for(int i=0; i<10 && i%2==0; i++) {
+  ```
+
+  - In the update, it updates the value of `i` by 1. This is optional too. you can have the update like: i++, i--, i+=2, i-=2 etc.
+
+  ```java
+        int sum = 0;
+        for(int i=0; i<10;) {
+            sum += i;
+            i++;
+        }
+
+  ```
+
+- Okay so these are the variation of for loops. let's understand how this for loop works. So `i=0;`, i is assigned to 0. now it checks is `i`(0) is less than `10`, the answer is yes(true). if condition comes true, it executes the block of code. so inside the body, `sum += i;`, expression is evaluated. `sum` is assigned to 0 as sum = sum + i(0). so `sum` is assigned to 0. This is the first iteration.
+- Now `i` get updated to 1. now it checks if `i` is less than 10, the answer is yes(true). if condition comes true, it executes the block of code. so inside the body, `sum += i;`, expression is evaluated. `sum` is assigned to 0 as sum = sum + i(1). so `sum` is assigned to 1. This is the second iteration.
+- This iteration continues until `i` is less than 10. As `i` reaches 10, the condition becomes false and the loop stops.
+- So the final value of `sum` is 10, which will be printed on the console.
+
+And that's all. You can see that the for loop is very simple and easy to understand. You can practise some questions based on for loops in the [Assignment Section](./assignment.md).
 
 ## **While Loops**
 
-While Loops are used to iterate over a range of numbers. In this loop, the range is defined by the `while` keyword. It needs a condition to check if the loop should continue or not and a block of code to be executed for each value in the range of numbers (from the first to the last). The main difference between for and while loops is that the for loop is used to iterate over a range of numbers and the while loop is used to iterate over a range of values.
+While Loops are used to iterate over a range of numbers. In this loop, the range is defined by the `while` keyword. It needs a condition to check if the loop should continue or not and a block of code to be executed for each value in the range of numbers (from the first to the last).
 
 #### Semantics
 
-```cpp
+```java
     // syntax
     while(condition) {
         // block of code
@@ -111,7 +141,7 @@ Do-While loops are used to iterate over a range of numbers. In this loop, the ra
 
 #### Semantics
 
-```cpp
+```java
     // syntax
     do {
         // block of code
@@ -124,7 +154,7 @@ Do-While loops are used to iterate over a range of numbers. In this loop, the ra
 
 Let's see how to apply do-while loop in writing a program.
 
-```cpp
+```java
     // Program to demonstrate do-while loop
     public class <ClassName> {
         public static void main(String[] args) {
@@ -139,4 +169,15 @@ Let's see how to apply do-while loop in writing a program.
 
 Lets analyze the code.
 
-- In line six, we have used `do` to iterate over the range of numbers and we have put condition `n > 0` because we want to iterate over the numbers from the first to the last.
+- we have used `do` keyword to execute the block of code firstly. firstly this loop will start executing the block of code and print the value of `i` to the console.
+- after that we're incrementing the value of `i` by 1 and then we check the condition `i < 10` and if the condition is true then we execute the loop again and print the value of `i` to the console.
+- and if the condition is false then we break the loop.
+- so the conclusion is that we first, atleast once execute the block of code and then we'll check the condition and according to the condition we'll work further.
+
+> There may be a question when to use which loop?
+
+Okay so it depends on the situation. It completey depends on the problem you are solving.
+
+- **`for` and `while`** - you can use both loop as per your requirement, but there is one thing which recommended by all is you should use `while` loop when you don't know how many times you have to iterate and use a `for` loop when you know how many times you have to iterate. suppose you have to print numbers from 1 to 10 then you know how many times you have to run the loop so use `for` loop. And if you have given that keep taking input from a user till user doesn't press x, here you don't know how many times you have to iterate so use `while` loop.
+
+- **`while` and `do-while`** - so in situations like, when you atleast once want to run the loop, irrespective of the condition, then you should use `do-while` loop and rest in all other cases either use `while` loop or `for` loop.
