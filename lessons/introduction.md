@@ -7,8 +7,7 @@ description: "this is the introduction to the website"
 icon: "search"
 ---
 
-Hi there! We have made this website for the learning purpose for all those students out there who wanted to enhance
-there knowledge learning Data-Structure and Algorithms. This website contains all the data sturctures and algorithms in very simple way such that anyone can learn. The DS Algo will be oriented towards the language Java. Okay!
+Hi there! We have made this website for the learning purpose for all those students out there who wanted to enhance there knowledge learning Data-Structure and Algorithms. This website contains all the data structures and algorithms in very simple way such that anyone can learn. The DS Algo will be oriented towards the language Java. Okay!
 
 ## Motivations
 
@@ -39,7 +38,12 @@ repo.
 This course requires some of the prerequisite knowledge of the following:
 
 - Basic knowledge of any programming language (Like C, C++, Java, etc.). but if you don't that's completely fine. we'll be firstly going to learn Java then we'll move to data structures and algorithms.
+- One thing I'll recommend is to follow the [DSA-Bootcamp-Java](https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ) course because most of the notes and the material are based on that. So definitely you should watch that course.
 
 ## Special Thanks
 
-I want to thank [Brian Holt](https://twitter.com/holtbt) for the idea of this course-site and for allowing me to use his starter. He's a great instructor at [Frontend Masters](https://frontendmasters.com/teachers/brian-holt/), if you want to learn some react and javascript related stuffs go checkout his courses. I'm really grateful for his support.
+![kunalOP](/images/kunalOP.jpg)
+
+A big shout out to [Kunal](https://twitter.com/kunalstwt) for his [DSA-Bootcamp-Java](https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ) course. On his Youtube channel, he is teaching this quality-loaded course completely for free. He is currently a developer advocate at [Civo](http://civo.com/), a program manager at DoK Community, an MLH Coach and he is doing a lot, literally a lot of things for the community. I would like to thank him for his hard work and dedication. I personally follow his DSA-Bootcamp-Java course and I am really happy with his teaching style.
+
+I also want to thank [Brian Holt](https://twitter.com/holtbt) for the idea of this course-site and for allowing me to use his starter. He's a great instructor at [Frontend Masters](https://frontendmasters.com/teachers/brian-holt/), if you want to learn some react and javascript related stuffs go checkout his courses. I'm really grateful for his support.
