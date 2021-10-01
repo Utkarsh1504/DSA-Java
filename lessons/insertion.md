@@ -112,7 +112,8 @@ Now our array is sorted.
 
 you can visualize this at [hackerearth](https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/visualize/) 
 
-### Advantages
+## Advantages
+``
 
 
 
