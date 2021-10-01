@@ -9,7 +9,7 @@ Insertion sort is the sorting mechanism where the sorted array is built having o
 
 ## Explanation
 
- the first element of array forms the sorted subarray while the rest create the unsorted subarray from which we choose an element one by one and "insert" the same in the sorted subarray. The same procedure is followed until we reach the end of the array.
+The first element of the array forms the sorted subarray while the rest create the unsorted subarray from which we choose an element one by one and **insert** the same in the sorted subarray. The same procedure is followed until we reach the end of the array.
 
 In each iteration, we extend the sorted subarray while shrinking the unsorted subarray. The array is searched sequentially and unsorted items are moved and inserted into the sorted sub-list (in the same array).
 
