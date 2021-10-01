@@ -34,4 +34,4 @@ In C++, whenever a variable is defined, the compiler(which compiles source code 
 into a set of machine-language that can be understood by a digital computer's CPU) allocates some memory for that
 variable based on their data-type. It has some types:
 
-![data-type](./images/t.jpg)
+![data-types](./images/dataTypes.png)
