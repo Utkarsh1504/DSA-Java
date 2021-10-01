@@ -126,7 +126,8 @@ you can visualize this at [hackerearth](https://www.hackerearth.com/practice/alg
 
 
 
-### Applications
+## Applications
+``
 
 
 
