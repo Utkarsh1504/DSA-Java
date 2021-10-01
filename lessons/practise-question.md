@@ -13,7 +13,7 @@ Now, after traversing the whole array fill the remaining positions of the array 
 ```java
 package main;
 import java.util.*;
-public class main {
+public class Main {
 	public static void pushZerosToEnd(int[] arr, int n) {
         int count=0;
         for(int i=0;i<arr.length;i++)
