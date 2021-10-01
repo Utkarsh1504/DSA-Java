@@ -23,9 +23,9 @@ Consider an array of `n` distinct elements. An element `a` is given, index of `a
 
 ## Code Implementation
 
-```
+```java
 //Java program for implementation of Cyclic Sort
-
+import java.util.Arrays;
 
 public class CyclicSort {
     public static void main(String[] args) {
