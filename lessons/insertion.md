@@ -5,7 +5,6 @@ order: "5E"
 section: "Searching & Sorting"
 description: "learn Sorting algorithms"
 ---
-### Introduction to Insertion Sort
 Insertion sort is the sorting mechanism where the sorted array is built having one item at a time. The array elements are compared with each other sequentially and then arranged simultaneously in some particular order.
 
 ### Explanation
