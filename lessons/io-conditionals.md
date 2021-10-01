@@ -152,3 +152,17 @@ Above is the basic syntax of switch statements. Let's see some examples to under
         }
     }
 ```
+
+Let's go through the code line by line. 
+
+
+
+
+ - first creates a variable named `a` and assigns the value `10` to it.
+
+ - Second, "switches" on the value of the `a` variable. Inside the `switch` statement are 3 case statements and a default statement.
+
+ - Each case statement compares the value of the `a` variable with a constant value. If the amount variable value is equal to that constant value, the code after the colon `(:)` is executed. `break` keyword after each statement. If no break keyword was place here, the execution could continue down the rest of the case statements until a break is met, or the end of the switch statement is reached. The break keyword makes execution jump out of the switch statement.
+
+ - The `default` statement is executed if no case statement matched the value of the amount variable. The default statement could also be executed if the case statements before it did not have a break command in the end. You don't need a default statement. It is optional
+
