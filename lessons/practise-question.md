@@ -1,4 +1,10 @@
-### Q1) Move All Zeros to End of an Array
+---
+path: "/practise-questions"
+title: "Practise Questions"
+order: "5F"
+section: "Searching & Sorting"
+description: "learn Searching & sorting algorithms"
+---
 You have been given a random integer array of size N. You have been required to push all the zeros that are present in the array to the end of it such that the relative order of the non-zero elements should be maintained.
 ```java
 Sample Input/Output
