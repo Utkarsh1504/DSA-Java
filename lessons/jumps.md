@@ -141,20 +141,17 @@ Output:  `13`
 #### Method with return type void
 ```java
 // Main method
-class  CodeExample {
+class CodeExample {
     // Method 1
 	public static void demoFunction(int n) {
-		if(n<10){
+		if(n<10) {
 		    // return statement below(only using return statement and not returning anything)
-            // control exits the method if this condition(i.e, n<9) is true.
+            	    // control exits the method if this condition(i.e, n<9) is true.
 		    return;
-		   }
-		else{
+	        } else {
 		   n++;
 		}
 	}
-}
-	
 	// Main driver method
 	public static void main(String[] args){
 	     int n = 8;
