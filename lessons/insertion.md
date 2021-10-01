@@ -7,7 +7,7 @@ description: "learn Sorting algorithms"
 ---
 Insertion sort is the sorting mechanism where the sorted array is built having one item at a time. The array elements are compared with each other sequentially and then arranged simultaneously in some particular order.
 
-### Explanation
+## Explanation
 
  the first element of array forms the sorted subarray while the rest create the unsorted subarray from which we choose an element one by one and "insert" the same in the sorted subarray. The same procedure is followed until we reach the end of the array.
 
