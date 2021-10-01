@@ -20,7 +20,7 @@ In each iteration, we extend the sorted subarray while shrinking the unsorted su
 * Insert the value
 * Repeat until list is sorted
 
-### pseudocode
+## Pseudocode
 ```pseudocode
 procedure insertionSort( A : array of items )
    int holePosition
