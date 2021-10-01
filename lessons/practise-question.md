@@ -47,12 +47,12 @@ Output
 3542200
 ```
 ## Explanation
-Initialize a variable count with a value equal to zero.<br>
-Make a function named pushZeroToEnd and input an array.<br>
-Traverse through the array and check each element whether it is equal to zero or not.<br>
-If the element is not equal to zero, put the element at the countth position of the array.<br>
-Increase the value of count by 1.<br>
-At last, fill the remaining positions of the array with 0.<br>
+- Initialize a variable count with a value equal to zero.<br>
+- Make a function named pushZeroToEnd and input an array.<br>
+- Traverse through the array and check each element whether it is equal to zero or not.<br>
+- If the element is not equal to zero, put the element at the countth position of the array.<br>
+- Increase the value of count by 1.<br>
+- At last, fill the remaining positions of the array with 0.<br>
 
 ## Time Complexity
 Since we will be traversing the whole array twice therefore the time complexity of algorithm would be: 
