@@ -55,5 +55,7 @@ Increase the value of count by 1.<br>
 At last, fill the remaining positions of the array with 0.<br>
 
 ## Time Complexity
-Since we will be traversing the whole array twice therefore the time complexity of algorithm would be Time complexity of first loop O(N)+ Time complexity of second loop O(N)=O(N),where n is number of elements in input array.
+Since we will be traversing the whole array twice therefore the time complexity of algorithm would be: 
+- **Time complexity of first loop O(N) + Time complexity of second loop O(N) = O(N)**,
+where n is number of elements in input array.
 
