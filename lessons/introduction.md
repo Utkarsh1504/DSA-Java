@@ -42,7 +42,7 @@ This course requires some of the prerequisite knowledge of the following:
 
 ## Special Thanks
 
-![kunalOP](/images/kunalOP.jpg)
+![kunalOP](./images/kunalOP.jpg)
 
 A big shout out to [Kunal](https://twitter.com/kunalstwt) for his [DSA-Bootcamp-Java](https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ) course. On his Youtube channel, he is teaching this quality-loaded course completely for free. He is currently a developer advocate at [Civo](http://civo.com/), a program manager at DoK Community, an MLH Coach and he is doing a lot, literally a lot of things for the community. I would like to thank him for his hard work and dedication. I personally follow his DSA-Bootcamp-Java course and I am really happy with his teaching style.
 

@@ -84,7 +84,7 @@ Run the following command to install the required dependencies.
 
 6. Stage your changes and commit
 
-```css
+```yml
 git add -a
 
 git commit -m "<your_commit_message>"

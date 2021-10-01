@@ -1,8 +1,7 @@
 ---
-path: "/backtracking"
-title: "Introduction to Backtracking"
-order: "9A"
+path: "/backtrack-maze"
+title: "Maze Problems"
+order: "9E"
 section: "BackTracking In Java"
 description: "learn about backtracking algorithms"
-icon: "sitemap"
 ---
