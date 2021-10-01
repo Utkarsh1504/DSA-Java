@@ -72,46 +72,26 @@ The worst case for insertion sort will occur when the input list is in decreasin
 ```java
 
 // Java program for implementation of Insertion Sort
-class InsertionSort {
-    /*Function to sort array using insertion sort*/
-    void insSort(int arr[])
-    {
-        int n = arr.length;
-        for (int i = 1; i < n; ++i) {
-            int key = arr[i];
+public class InsertionSort {
+    public static void insertionSort(int[] input) {
+        for (int i = 1; i < input.length; i++) {
             int j = i - 1;
- 
-            /* Move elements of arr[0..i-1], that are
-               greater than key, to one position ahead
-               of their current position */
-            while (j >= 0 && arr[j] > key) {
-                arr[j + 1] = arr[j];
-                j = j - 1;
+            int temp = input[i];
+            for (; j >= 0 && input[j] > temp; j--) {
+                input[j + 1] = input[j];
             }
-            arr[j + 1] = key;
+            input[j + 1] = temp;
         }
     }
- 
-    /* A utility function to print array of size n*/
-    static void printArray(int arr[])
-    {
-        int n = arr.length;
-        for (int i = 0; i < n; ++i)
-            System.out.print(arr[i] + " ");
- 
-        System.out.println();
+
+    public static void main(String[] args) {
+        int[] input = {  1, 5, 4, 2, 3  };
+        insertionSort(input);
+        for (int j : input) {
+            System.out.print(j + " ");
+        }
     }
- 
-    public static void main(String args[])
-    {
-        int arr[] = { 1,5,4,2,3 };
- 
-        InsertionSort ob = new InsertionSort();
-        ob.insSort(arr);
- 
-        printArray(arr);
-    }
-} /* This code is contributed by Abhijit Mishra. */
+}
 ```
 
 >
