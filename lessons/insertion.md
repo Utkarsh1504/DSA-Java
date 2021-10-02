@@ -113,9 +113,6 @@ Now our array is sorted.
 you can visualize this at [hackerearth](https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/visualize/) 
 
 ## Advantages
-``
-
-
 
 - Simple and easy to understand implementation
 - Efficient for small data
@@ -127,9 +124,6 @@ you can visualize this at [hackerearth](https://www.hackerearth.com/practice/alg
 
 
 ## Applications
-``
-
-
 
 - It could be used in sorting small lists.
 - It could be used in sorting "almost sorted" lists.
