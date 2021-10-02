@@ -14,7 +14,7 @@ It is a way to establish approximate relationship between size of input data and
 
 Calculation of space complexity used to hold much more significance in early days of computing than it does now. This is because most machines today have large memories and the user does not need to worry about running out of memory for running a program or two. But it is a crucial estimate where the physical memory is limited or closely monitored.
 
-### **Calculation of Space Complexity**
+## **Calculation of Space Complexity**
 
 An algorithm's space can be categorized into 2 parts:\
 **1)Fixed Part** which is independent of characteristics of input and output.\
@@ -51,7 +51,7 @@ In this case there are 3 statements (1 if & 2 return statements). The depth of r
 ***NOTE: Space complexity might differ from machine to machine based on the programming language, the compiler etc.***
 
 
-### **Space Complexities of Common Algorithms**
+## **Space Complexities of Common Algorithms**
 | Algorithm | Space Complexity |
 | --------- | ---------------- |
 | Linear Search | O(1) |
