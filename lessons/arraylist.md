@@ -6,7 +6,6 @@ section: "Arrays"
 description: "learn arrays"
 ---
  ## ArrayList in java 
- <hr>
  The ArrayList class is in implementation of the list interface that allow us to create resizable array. In simple term we can say that ArrayList in java is dynamic array for storing the elements.
  It is just like the vector in c++.
 
@@ -67,7 +66,7 @@ The ArrayList class have some methods to perform different operations on arrayli
 - Change elements
 - Remove elements
 
-## Add Elements :
+### Add Elements:
  - add() : This is the method to insert any elements at the end of the list.
 ```java
 import java.util.ArrayList;
@@ -86,7 +85,8 @@ class Main {
   }
 }
 ```
-## Output
+### Output:
+
 ```
 ArrayList : [Virat,Dhoni,Sachin]
 ```
@@ -114,7 +114,7 @@ class Main {
 }
 
 ```
-## Output
+### Output:
 ```
 ArrayList : [Virat,Dhoni,Sachin];
 Dhoni
@@ -126,7 +126,7 @@ import java.util.ArrayList;
 
 class Main {
   public static void main(String[] args) {
-    ArrayList<String> languages = new ArrayList<>();
+    ArrayList<String> playerName = new ArrayList<>();
 
     // add() method without the index parameter
     playerName.add("Virat");
@@ -141,7 +141,7 @@ class Main {
   }
 }
 ```
-## Output
+### Output:
 ```
 ArrayList : [Virat,Dhoni,Sachin]
 New ArrayList : [Virat,Dhoni,Rohit]
@@ -154,7 +154,7 @@ import java.util.ArrayList;
 
 class Main {
   public static void main(String[] args) {
-    ArrayList<String> animals = new ArrayList<>();
+    ArrayList<String> playerName = new ArrayList<>();
 
 
     // add() method without the index parameter
@@ -172,7 +172,7 @@ class Main {
   }
 }
 ```
-## Output
+### Output:
 ```
 ArrayList : [Virat,Dhoni,Sachin]
 New ArrayList : [Virat,Dhoni]
