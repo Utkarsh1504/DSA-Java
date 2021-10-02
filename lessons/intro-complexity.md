@@ -9,7 +9,7 @@ icon: "flask"
 
 Ok so till now we have just learn some algorithm and tried to solve some problems based on them. Now an important question arise while programming is: How efficient is an algorithm or piece of code? How much time and space does it take to run?
 
-Now what do i mean with efficiency? It basically include the following:
+Now what do I mean with efficiency? It basically include the following:
 
 - memory usage
 - time(CPU) usage
