@@ -1,7 +1,7 @@
 ---
 path: "/practise-question"
 title: "Practise Questions"
-order: "5F"
+order: "5I"
 section: "Searching & Sorting"
 description: "learn Searching & sorting algorithms"
 ---

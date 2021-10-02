@@ -1,7 +1,7 @@
 ---
 path: "/cyclesort"
 title: "Cyclic Sort"
-order: "5E"
+order: "5H"
 section: "Searching & Sorting"
 description: "learn Sorting algorithms"
 ---
