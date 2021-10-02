@@ -127,10 +127,10 @@ Switch statements are used to execute different code depending on the value of a
     }
 ```
 Above is the basic syntax of switch statements. This is how it works:
-- The switch expression is evaluated `once`.
-- The value of the expression is `compared` with the values of each case.
-- If there is a `match`, the associated block of code is executed.
-- The `break` and `default` keywords are optional.
+- The switch expression is only evaluated `once`.
+- The value of the expression is `compared` with the values of each case value.
+- If there is a `match`, ie. the case value and the switch expression are same, the associated block of code with the case value is executed.
+- The `break` and `default` keywords are optional and will be explained ahead.
 
 Now, let us see a diagramtic workflow of the Java Switch statement for a better understanding.
 
@@ -187,7 +187,7 @@ Let us see an example to understand it better.
     Output : Vowel
 ```
 #### The 'break' Keyword
-- When Java reaches a `break` keyword, it breaks out of the switch block.
+- When the Java compiler reaches a `break` keyword, it breaks out of the switch block.
 - This will stop the execution of more code and case testing inside the block.
 - Basically it means that When a match is found, and the job is done, there is no need for more testing. Hence we break out of the switch statement.
 
