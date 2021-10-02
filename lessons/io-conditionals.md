@@ -109,7 +109,7 @@ Let's go through the code line by line.
 
 Switch statements are used to execute different code depending on the value of a variable. We use Switch statements for the condition based problem solving. Switch statements are used when we have multiple conditions in a single if statement. It is just a substitute for multiple if-else statements. In this a variable is compared to multiple cases one by one and when the case is matched then the code block under that case will be executed.
 
-#### Semantics
+#### Syntax
 
 ```java
     // syntax
@@ -126,29 +126,160 @@ Switch statements are used to execute different code depending on the value of a
             break;
     }
 ```
+Above is the basic syntax of switch statements. Now, let us see a diagramtic workflow of the Java Switch statement for a better understanding.
 
-Above is the basic syntax of switch statements. Let's see some examples to understand it better.
+![java-switch-statement](./images/java-switch-statement.png)
+
+#### Points to Remember
+- There can be 1 or N number of `case values` for a switch expression.
+- The `case values` must be `literal` or `constant`. It doesn't allow variables.
+- The `case values` must be `unique`. In case of duplicate value, it renders compile-time error.
+- The Java `switch expression` must be of `byte, short, int, long` (with its Wrapper type), `enums and string`.
+- Each case statement can have a `break` statement which is `optional`. When control reaches to the break statement, it jumps the control after the switch expression. If a break statement is `not found`, it executes the next case.
+- The case value can have a `default` label which is `optional`.
+- The Java switch statement is `fall-through`. It means it executes all statements after the first match if a break statement is NOT present.
+
+Let us see an example to understand it better.
 
 ```java
-    // print hello world in different languages using switch statement
+    // Program to check Vowel or Consonant: 
+    // It is not case-sensitive.
 
     public class <ClassName> {
         public static void main(String[] args){
-            int a = 10;
-            switch(a){
-                case 1:
-                    System.out.println("Hello");
-                    break;
-                case 2:
-                    System.out.println("Namastey");
-                    break;
-                case 3:
-                    System.out.println("Hola");
-                    break;
-                default:
-                    System.out.println("learning more");
+            char ch='O';  
+            switch(ch)  
+            {  
+                case 'a':   
+                    System.out.println("Vowel");  
+                    break;  
+                case 'e':   
+                    System.out.println("Vowel");  
+                    break;  
+                case 'i':   
+                    System.out.println("Vowel");  
+                    break;  
+                case 'o':   
+                    System.out.println("Vowel");  
+                    break;  
+                case 'u':   
+                    System.out.println("Vowel");  
+                    break;  
+                case 'A':   
+                    System.out.println("Vowel");  
+                    break;  
+                case 'E':   
+                    System.out.println("Vowel");  
+                    break;  
+                case 'I':   
+                    System.out.println("Vowel");  
+                    break;  
+                case 'O':   
+                    System.out.println("Vowel");  
+                    break;  
+                case 'U':   
+                    System.out.println("Vowel");  
+                    break;  
+                default:   
+                    System.out.println("Consonant"); 
                     break;
             }
         }
     }
+    
+    Output : Vowel
+```
+
+Now let us see another example where there are no break statements present:
+
+```java
+    //switch cases without break statements
+
+    public class SwitchExample2 {  
+        public static void main(String[] args) {  
+            int num = 20;  
+            switch(num){  
+                case 10: 
+                    System.out.println("10");  
+                case 20: 
+                    System.out.println("20");  
+                case 30: 
+                    System.out.println("30");  
+                default:
+                    System.out.println("The number is not 10, 20 or 30");  
+            }  
+        }  
+    } 
+    
+    Output : 20
+             30
+             The number is not 10, 20 or 30
+```
+Remember that the switch statement is `fall-through`. That's why all the statements got executed after the first match because the break statement is NOT present.
+
+
+#### Java Nested Switch Statements
+We can use switch statement inside other switch statement in Java. It is known as nested switch statement.
+
+```java
+    //Java Program to demonstrate the use of Java Nested Switch  
+
+    public class NestedSwitchExample {    
+        public static void main(String args[])  
+          {  
+            //C - CSE, E - ECE, M - Mechanical  
+            char branch = 'C';                 
+            int collegeYear = 4;  
+            switch(collegeYear)  
+            {  
+                case 1:  
+                    System.out.println("English, Maths, Science");  
+                    break;  
+                case 2:  
+                    switch( branch )   
+                    {  
+                        case 'C':  
+                            System.out.println("Operating System, Java, Data Structure");  
+                            break;  
+                        case 'E':  
+                            System.out.println("Micro processors, Logic switching theory");  
+                            break;  
+                        case 'M':  
+                            System.out.println("Drawing, Manufacturing Machines");  
+                            break;  
+                    }  
+                    break;  
+                case 3:  
+                    switch(branch)   
+                    {  
+                        case 'C':  
+                            System.out.println("Computer Organization, MultiMedia");  
+                            break;  
+                        case 'E':  
+                            System.out.println("Fundamentals of Logic Design, Microelectronics");  
+                            break;  
+                        case 'M':  
+                            System.out.println("Internal Combustion Engines, Mechanical Vibration");  
+                            break;  
+                    }  
+                    break;  
+                case 4:  
+                    switch(branch)   
+                    {  
+                        case 'C':  
+                            System.out.println("Data Communication and Networks, MultiMedia");  
+                            break;  
+                        case 'E':  
+                                System.out.println("Embedded System, Image Processing");  
+                            break;  
+                        case 'M':  
+                            System.out.println("Production Technology, Thermal Engineering");  
+                            break;  
+                    }  
+                    break;  
+            }  
+        }  
+    } 
+    
+    Output : Data Communication and Networks, MultiMedia
 ```
