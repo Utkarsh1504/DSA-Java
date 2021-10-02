@@ -126,18 +126,15 @@ Switch statements are used to execute different code depending on the value of a
             break;
     }
 ```
-Above is the basic syntax of switch statements. Now, let us see a diagramtic workflow of the Java Switch statement for a better understanding.
+Above is the basic syntax of switch statements. This is how it works:
+- The switch expression is evaluated `once`.
+- The value of the expression is `compared` with the values of each case.
+- If there is a `match`, the associated block of code is executed.
+- The `break` and `default` keywords are optional.
+
+Now, let us see a diagramtic workflow of the Java Switch statement for a better understanding.
 
 ![java-switch-statement](./images/java-switch-statement.png)
-
-#### Points to Remember
-- There can be 1 or N number of `case values` for a switch expression.
-- The `case values` must be `literal` or `constant`. It doesn't allow variables.
-- The `case values` must be `unique`. In case of duplicate value, it renders compile-time error.
-- The Java `switch expression` must be of `byte, short, int, long` (with its Wrapper type), `enums and string`.
-- Each case statement can have a `break` statement which is `optional`. When control reaches to the break statement, it jumps the control after the switch expression. If a break statement is `not found`, it executes the next case.
-- The case value can have a `default` label which is `optional`.
-- The Java switch statement is `fall-through`. It means it executes all statements after the first match if a break statement is NOT present.
 
 Let us see an example to understand it better.
 
@@ -189,6 +186,13 @@ Let us see an example to understand it better.
     
     Output : Vowel
 ```
+#### The 'break' Keyword
+- When Java reaches a `break` keyword, it breaks out of the switch block.
+- This will stop the execution of more code and case testing inside the block.
+- Basically it means that When a match is found, and the job is done, there is no need for more testing. Hence we break out of the switch statement.
+
+#### The 'default' Keyword
+- The `default` keyword specifies some code to run if there is no case match:
 
 Now let us see another example where there are no break statements present:
 
@@ -217,6 +221,14 @@ Now let us see another example where there are no break statements present:
 ```
 Remember that the switch statement is `fall-through`. That's why all the statements got executed after the first match because the break statement is NOT present.
 
+#### Points to Remember
+- There can be 1 or N number of `case values` for a switch expression.
+- The `case values` must be `literal` or `constant`. It doesn't allow variables.
+- The `case values` must be `unique`. In case of duplicate value, it renders compile-time error.
+- The Java `switch expression` must be of `byte, short, int, long` (with its Wrapper type), `enums and string`.
+- Each case statement can have a `break` statement which is `optional`. When control reaches to the break statement, it jumps the control after the switch expression. If a break statement is `not found`, it executes the next case.
+- The case value can have a `default` label which is `optional`.
+- The Java switch statement is `fall-through`. It means it executes all statements after the first match if a break statement is NOT present.
 
 #### Java Nested Switch Statements
 We can use switch statement inside other switch statement in Java. It is known as nested switch statement.
@@ -283,3 +295,4 @@ We can use switch statement inside other switch statement in Java. It is known a
     
     Output : Data Communication and Networks, MultiMedia
 ```
+
