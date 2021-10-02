@@ -6,242 +6,16 @@ section: "Learn Java"
 description: "Learn Java"
 ---
 
-Jumps statements are used to jump to a specific line in a program. There are two type of jumps:
-- Conditional jumps
+Jumps statements are used to jump to a specific line in a program. 
 
-- Unconditional jumps
-
-## **Conditional Jumps**
-
-Conditional jumps are used to jump to a specific line in a program. It has two parameters, the line number to jump to and a condition. There are five types of conditional jumps:
-
--  `if`
-
--  `if-else`
-
--  `nested-if`
-
--  `if-else-if` 
-
-- `switch case`
-
- ##  **if**    
- `if` statement is the most simple decision making statement. It is used to decide whether a certain statement or block of statements will be executed or not. That is, if a certain condition is true then a block of statement is executed otherwise not.
+Java supports three jump statements.
+ - `break`
+ - `continue` 
+ - `return`
  
-###  Syntax:
-
-```java
-if(condition)
-{
-  // statements to excute if condition is true.
-}
-```
-Note: Take care of braces here. If we do not provide the curly braces ‘{‘ and ‘}’ after **if( condition )** then by default `if` statement will consider the very first statement to be inside its block.
-For ex:
-```java
-if(condition)
-  statement1
-  statement2
-  statement3
-// Here if the condition is true, **if** block will consider only statement1 to be inside its block.
-```
-
-Example.
-```java
-public  class  ifDemo {
-public  static  void  main(String[] args) {
-int i = 10;
-if(i < 15)
-   {
-    System.out.println("10 is less than 15");
-   }
- }
-}
-```
-Output:  `10 is less than 15`
-
-
-##  **if-else**    
-
-The `if` statement alone tells us that if a condition is true it will execute a block of statements and if the condition is false it won’t. But what if we want to do something else if the condition is false. Here comes the `else` statement. We can use the `else` statement with `if` statement to execute a block of code when the condition is false.
-
-###  Syntax:
-```java
-if(condition)
-{
-  // Executes this block if condition is true.
-}
-else
-{
-  // Executes this block if condition is false.
-}
-```
-Example.
-```java
-public  class  ifelseDemo {
-public  static  void  main(String[] args) {
-int i = 10;
-if(i < 15)
-   {
-   System.out.println("i is less than 15");
-   }
-   else
-   {
-   System.out.println("i is greater than 15");
-   }
- }
-}
-```
-Output:  `i is less than 15`
-
-
-##  **nested-if**    
-
-Java allows us to nest `if` statements within `if` statements.  That is, we can place an `if` statement inside another `if` statement.
-
-###  Syntax:
-
-```java
-if (condition1) 
-{
-   // Executes when condition1 is true
-   if (condition2) 
-   {
-      // Executes when condition2 is true
-   }
-}
-```
-Example.
-```java
-class NestedIfDemo{
-  public class void Main(String args[]){
-  int i = 10;
-  if(i==10)
-  {
-  // First if statement
-     if(i<15){
-        System.out.println("i is less than 15");
-         }
-     if(i<12){
-        System.out.println("i is less than 12 too");
-         }
-     else{
-        System.out.println("i is greater than 15");
-         }
-   }
- }
-}
-```
-Output:
-`i is smaller than 15`
-`i is smaller than 12 too`
-
-
-##  **if-else-if**
-Here, a user can decide among multiple options. The `if` statements are executed from the top down. As soon as one of the conditions controlling the` if` is true, the statement associated with that `if` is executed, and the rest of the ladder is bypassed. If none of the conditions is true, then the final `else` statement will be executed.
-
-###  Syntax:
-
-```java
-if (condition)
-    statement;
-else if (condition)
-    statement;
-.
-.
-else
-    statement;
-```
-Example:
-```java
-class ifelseifDemo{
-	public static void main(String args[])
-	{
-		int i = 20;
-
-		if (i == 10)
-			System.out.println("i is 10");
-		else if (i == 15)
-			System.out.println("i is 15");
-		else if (i == 20)
-			System.out.println("i is 20");
-		else
-			System.out.println("i is not present");
-	}
-}
-
-```
-Output:  `i is 20`
-
-
-
-
-##  **switch-case**
-The switch statement is a multiway branch statement. It provides an easy way to dispatch execution to different parts of code based on the value of the expression.
-
-###  Syntax:
-```java
-switch (expression)
-{
-  case value1:
-    statement1;
-    break;
-  case value2:
-    statement2;
-    break;
-  .
-  .
-  case valueN:
-    statementN;
-    break;
-  default:
-    statementDefault;
-}
-```
--   Expression can be of type `byte`, `short`, `int`, `char` or an `enumeration`. Beginning with JDK7,  expression  can also be of type `String`.
--  Duplicate case values are not allowed.
--  The `default` statement is optional.
--   The `break` statement is used inside the switch to terminate a statement sequence.
-- The `break` statement is optional. If omitted, execution will continue on into the next case.
-
-Example:
-```java
-class switchCaseDemo{
-   public static Main(String args[]){
-     int i = 9;
-     switch(i)
-     {
-       case 0:
-         System.out.println("i is zero.");
-         break;
-       case 1:
-         System.out.println("i is one.");
-         break;
-       case 2:  
-         System.out.println("i is two.");
-         break;
-       case 3:   
-         System.out.println("i is three.");
-         break;
-       default:
-         System.out.println("i is greater than 2.");
-     }
-   }
-}
-```
-Output:  `i is greater than 2.`
-
-
-## **Unconditional Jumps**
-
-Unconditional jumps are used to jump to a specific line in a program.
-
-It has a single parameter, the line number to jump to. There are two types of unconditional jumps:
-
--  `break`
-
--  `continue`
-
+ These three statements transfer control to other part of the program.
+ 
+Let's see one by one how it works.
 
 ## **break**
 Break Statement is a loop control statement that is used to terminate the loop. As soon as the  `break` statement is encountered from within a loop, the loop iterations stop there, and control returns from the loop immediately to the first statement after the loop.
@@ -266,9 +40,9 @@ Output:    `1 2 3`
 
 In Java, `break` is majorly used for:
 - To exit a loop.
-- Terminate a sequence in a switch statement.
+- Terminate a sequence in a `switch` statement.
 
-## **Continue**
+## **continue**
 Sometimes you doesn't want to excute a particular iteration in a loop. That is, you might want to continue running the loop but stop processing the  particular iteration. Then `continue` statement performs such an action.
 
 Example.
@@ -288,3 +62,111 @@ for(int i=1; i<=6; i++){
 
 ```
 Output:   `1 2 3 5 6`
+
+## **break vs continue**
+Let's us see how these two jump statements are different from each other.
+
+
+| break             | continue                                                                |
+| ----------------- | --------------- |
+|The break statement is used to terminate the loop immediately. | The continue statement is used to skip the current iteration of the loop.|
+| break keyword is used to indicate break statements in java programming. | continue keyword is used to indicate continue statement in java programming.|
+| We can use a break with the switch statement. | The continue statement brings the next iteration early. |
+| It stops the execution of the loop. | It does not stop the execution of the loop.|
+
+
+
+## **return**
+The `return` statement is used to explicitly return from a method. That is, it causes a program control to transfer back to the caller of the method.
+It is used to **exit** from a method, with or without a value. Usage of **return keyword** as there exist two ways as listed below as follows:
+
+-   **Case 1:**  Methods returning a value
+-   **Case 2:**  Methods not returning a value
+
+
+##  **Methods returning a value**
+```java
+// Main method
+class  CodeExample{
+   // Method 1
+	public static int sumFunction(int a, int b) {
+		int sum = a + b;
+	// Since return type of sunFunction method is integer so this method should return integer value	
+		return sum;
+	}
+	
+	// Main driver method
+	public static void main(String[] args)
+	{
+	    int a = 5;
+	    int b = 8;
+	    // here ans variable will receive sum from sumFunction
+		int ans = sumFunction(a, b);
+		// print statement
+		System.out.println(ans);
+	}
+}
+
+```
+Output:  `13`
+
+**Output explanation:**  When  we are calling a class CodeExample method that has **return sum** which returns the value of sum and that’s value gets displayed on the console.
+
+##  **Methods not returning a value**
+For methods that do not return a value, `return` statement in Java can be skipped. Here there arise two cases when there is no value been returned by the user as listed below as follows:
+-  Method not using return statement in void function
+- Methods with return type void
+
+#### Method not using return statement in void function
+```java
+// Main method
+class  CodeExample{
+   // Method 1
+	public static void sumFunction(int a, int b) {
+		int sum = a + b;
+	// Since return type of sunFunction method is void so this method should not return any value.	
+		System.out.println(sum);
+	}
+	
+	// Main driver method
+	public static void main(String[] args)
+	{
+	    int a = 5;
+	    int b = 8;
+	    // Here, we will just call the function and the program will execute successfully.
+	   sumFunction(a, b);
+	}
+}
+```
+Output:  `13`
+
+#### Method with return type void
+```java
+// Main method
+class  CodeExample{
+   // Method 1
+	public static void demoFunction(int n) {
+		if(n<10)
+		{
+		// return statement below(only using return statement and not returning anything)
+        // control exits the method if this condition(i.e, n<9) is true.
+		return;
+		}
+		else
+		{
+		 n++;
+		}
+		}
+	 }
+	
+	// Main driver method
+	public static void main(String[] args)
+	{
+	    int n = 8;
+	    // calling the function
+	     sumFunction(n);
+	}
+}
+```
+Program executed successfully. 
+
