@@ -5,9 +5,8 @@ order: "4B"
 section: "Arrays"
 description: "learn arrays"
 ---
- ## ArrayList in java 
- The ArrayList class is in implementation of the list interface that allow us to create resizable array. In simple term we can say that ArrayList in java is dynamic array for storing the elements.
- It is just like the vector in c++.
+
+The ArrayList class is in implementation of the list interface that allow us to create resizable array. In simple term we can say that ArrayList in java is dynamic array for storing the elements. It is just like the vector in c++.
 
 
 ## Creating An ArrayList
@@ -136,7 +135,7 @@ class Main {
 
 
     // change the element of the array list
-    languages.set(2, "Rohit");
+    playerName.set(2, "Rohit");
     System.out.println("New ArrayList: " + playerName);
   }
 }
