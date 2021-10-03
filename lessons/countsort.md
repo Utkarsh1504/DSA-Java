@@ -7,8 +7,6 @@ description: "learn Sorting algorithms"
 ---
 __________________________________________________________________________________________________________________
 
-# **Count Sort**
-
 Counting sort is a sorting algorithm that sorts the elements of an array by counting the number of occurrences of each unique element in the array. In Counting sort, we maintain an auxiliary array which drastically increases space requirement for the algorithm implementation.
 
 It works just like hashing, first, we calculate the max value in the input array, the array to be sorted. Then we count the number of occurrences of each array element from 0 to length-1 and assign it into the auxiliary array. This array is used again to retrieve the sorted version of the input array.
@@ -50,7 +48,7 @@ Consider the data in the range 0 to 9.
   1. Take a count array to store the count of each unique object.
     
     Index:     0  1  2  3  4  5  6  7  8  9
-    Count:     0  2  2  0   1  1  0  1  0  0
+    Count:     0  2  2  0  1  1  0  1  0  0
 
   2. Modify the count array such that each element at each index 
   stores the sum of previous counts. 
