@@ -85,7 +85,7 @@ Run the following command to install the required dependencies.
 6. Stage your changes and commit
 
 ```yml
-git add -a
+git add .
 
 git commit -m "<your_commit_message>"
 ```
