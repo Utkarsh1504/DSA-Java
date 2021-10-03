@@ -48,4 +48,4 @@ It is a software development environment for writing, debugging, and testing Jav
 After setting up JDK, install anyone of the of your favorite IDE just by clicking on the link and install it.
 
 
-*It really Simple!*
+*It's really Simple!*
