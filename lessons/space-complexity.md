@@ -21,7 +21,7 @@ While executing, an algorithm uses memory space for three reasons:
 
 - **Environmental Stack**
 -- Sometimes an algorithm(function) may be called inside another algorithm(function). In such a situation, the current variables are pushed onto the system stack, where they wait for further execution and then the call to the inside algorithm(function) is made.\
-Ex.  If a function A() calls function B() inside it, then all th variables of the function A() will get stored on the system stack temporarily, while the function B() is called and executed inside the funciton A().
+Ex.  If a function A() calls function B() inside it, then all the variables of the function A() will get stored on the system stack temporarily, while the function B() is called and executed inside the function A().
 
 - **Data Space**
 -- Amount of space used by the variables and constants.
