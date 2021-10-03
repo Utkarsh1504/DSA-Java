@@ -5,7 +5,6 @@ order: "5F"
 section: "Searching & Sorting"
 description: "learn Sorting algorithms"
 ---
-__________________________________________________________________________________________________________________
 
 Counting sort is a sorting algorithm that sorts the elements of an array by counting the number of occurrences of each unique element in the array. In Counting sort, we maintain an auxiliary array which drastically increases space requirement for the algorithm implementation.
 
