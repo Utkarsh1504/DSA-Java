@@ -7,7 +7,7 @@ description: "Learn java"
 ---
 
 Operators are symbols that tell the compiler to perform some specfic operations.
-In C++, there are many operators, and they are grouped into several categories.
+In JAVA, there are many operators, and they are grouped into several categories.
 We are going to learn some of the important operators only. You will see these operators in most of the section and this will cover almost every problem you will encounter in your programming journey.
 
 Ok, So there are basically 6 categories of operators:
@@ -31,9 +31,9 @@ Arithmetric operators are used to perform arithmetic operations. They are used t
 
 Ok so let's learn about the incrementer and decrementer operators now because they are very important.
 
-### Incrementer and Decrementer Operators
+### Incrementer and Decrementer Operators/ Unary Operators
 
-In C++ there are two types of incrementer and decrementer operators:
+In Java there are two types of incrementer and decrementer operators:
 
 - **Incrementer Operator**: used to increment the value of the operand by 1.
 - **Decrementer Operator**: used to decrement the value of the operand by 1.
@@ -77,25 +77,25 @@ Logical operators are used to perform logical operations. They are used to perfo
 
 let's see an example:
 
-```cpp
+```Java
    // program to find whether a number is divible by both 3 and 5
    // or divisible by only one of them
-
-    #include <iostream>
-    using namespace std;
-
-    int main() {
-       int a;
-       cout<<"Enter a numbers: ";
-       cin>>a;
-       if(a%3==0 && a%5==0)
-         cout<<"the number is divisible by both 3 and 5";
+import java.util.Scanner;
+public class Main
+   {
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
+	    System.out.println("Enter a number: ");
+	    int a=sc.nextInt();
+	    
+        if(a%3==0 && a%5==0)
+         System.out.println("The number is divisible by both 3 and 5");
        else if(a%3==0 || a%5==0)
-         cout<<"the numbers is divisible by only one of them";
+         System.out.println("The numbers is divisible by only one of them");
        else
-         cout<<"the numbers is not divisible by any of them";
-       return 0;
+         System.out.println("The numbers is not divisible by any of them");
     }
+}
 ```
 
 let's see the explanation:
@@ -174,7 +174,7 @@ eg: let 8 >> 1 == ?
 
 here one thing to keep in mind that `>>` operator shifts the bits to the right and `<<` shifts the bits to the left. there is a way to find right shift and left shift of a number.
 
-```cpp
+```java
 Right Shift --> a >> n ==> a * 2^n
 Left Shift --> a << n ==> a / 2^n
 ```
@@ -183,65 +183,38 @@ Left Shift --> a << n ==> a / 2^n
 
 This category contains the following operators:
 
-- `sizof()`: it returns the size of the operand in bytes.
-
-```cpp
-    int a=5;
-    cout<<"the size of a is "<<sizof(a)<<" bytes";
-```
-
-The next one is:
-
 - `condition ? true_expression : false_expression`: it evaluates the true_expression if the condition is true and false_expression if the condition is false.
 
-```cpp
+```java
     // syntax
     // variable = Expression1 ? Expression2 : Expression3;
 
-    int main() {
-      int a=5, b=6;
-      (a > b) ? cout<<"a is greater than b"<<endl : cout<<"a is less than b";
-      return 0;
+    public class Main
+   {
+	public static void main(String[] args) {
+	 int num=15;
+     String msg = num > 10 
+  ? "Number is greater than 10" 
+  : "Number is less than or equal to 10";
+  System.out.println(msg);
     }
+}
+
 ```
 
-- `cast`: it converts the value of the operand to the type of the right operand.
-
-```cpp
-eg: int ch = 'a';
-    int ch = (int)'a';
-```
-
-- `comma(,)`: causes a series of operations to occur in the order they are written.
-
-```cpp
-    int main() {
-      int a=5, b=6;
-      (a, b) = (b, a);
-      return 0;
+- `typecasting`: it converts the value of the operand to the type of the right operand.
+eg:
+```java
+public class Main
+   {
+	public static void main(String[] args) {
+	char ch = 'a';
+    int typecasted_character = (int)'a';
+    System.out.println(ch);
+    System.out.println(typecasted_character);
     }
+}
 ```
-
-- `Reference(&) operator`: it is used to get the address of the operand.
-
-```cpp
-    int main() {
-      int a=5;
-      cout<<"the address of a is "<<&a<<endl;
-      return 0;
-    }
-```
-
-- `dereference(*) or pointer`: it is used to get the value of the operand. it is also known as \* pointer. Pointer is used to access the memory location of the variable.
-
-```cpp
-    int main() {
-      int a=5;
-      cout<<"the value of a is "<<*&a<<endl;
-      return 0;
-    }
-```
-
 ## **Operators Precedence**
 
 Operators Precedence is the order in which the operators are evaluated. Below is the precedence of the operators.
