@@ -5,7 +5,7 @@ order: "6B"
 section: "Strings In Depth"
 description: "learn strings in depth"
 ---
-## Introduction
+
 
 String Builder is a separate class just like Strings, which allows us to modify the values(mutability).
 ### Need of String Builder:
