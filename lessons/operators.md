@@ -205,13 +205,12 @@ This category contains the following operators:
 - `typecasting`: it converts the value of the operand to the type of the right operand.
 eg:
 ```java
-public class Main
-   {
-	public static void main(String[] args) {
-	char ch = 'a';
-    int typecasted_character = (int)'a';
-    System.out.println(ch);
-    System.out.println(typecasted_character);
+public class Main {
+    public static void main(String[] args) {
+        char ch = 'a';
+        int typecasted_character = (int) 'a';
+        System.out.println(ch);
+        System.out.println(typecasted_character);
     }
 }
 ```
