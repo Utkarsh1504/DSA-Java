@@ -81,20 +81,20 @@ let's see an example:
    // program to find whether a number is divible by both 3 and 5
    // or divisible by only one of them
 import java.util.Scanner;
-public class Main
-   {
-	public static void main(String[] args) {
-	    Scanner sc=new Scanner(System.in);
-	    System.out.println("Enter a number: ");
-	    int a=sc.nextInt();
-	    
-        if(a%3==0 && a%5==0)
-         System.out.println("The number is divisible by both 3 and 5");
-       else if(a%3==0 || a%5==0)
-         System.out.println("The numbers is divisible by only one of them");
-       else
-         System.out.println("The numbers is not divisible by any of them");
-    }
+public class Main {
+	public static void main(String[] args)
+      {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        int a = sc.nextInt();
+
+        if (a % 3 == 0 && a % 5 == 0)
+            System.out.println("The number is divisible by both 3 and 5");
+        else if (a % 3 == 0 || a % 5 == 0)
+            System.out.println("The numbers is divisible by only one of them");
+        else
+            System.out.println("The numbers is not divisible by any of them");
+      }
 }
 ```
 
@@ -189,14 +189,11 @@ This category contains the following operators:
     // syntax
     // variable = Expression1 ? Expression2 : Expression3;
 
-    public class Main
-   {
-	public static void main(String[] args) {
-	 int num=15;
-     String msg = num > 10 
-  ? "Number is greater than 10" 
-  : "Number is less than or equal to 10";
-  System.out.println(msg);
+  public class Main {
+    public static void main(String[] args) {
+        int num = 15;
+        String msg = num > 10 ? "Number is greater than 10" : "Number is less than or equal to 10";
+        System.out.println(msg);
     }
 }
 
