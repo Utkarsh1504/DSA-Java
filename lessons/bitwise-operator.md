@@ -254,7 +254,7 @@ if (x & 1 ) == 0
 else
   return false;
 ```
-### Q2. Convert characters to uppercase / lowercase
+### Q2. Convert characters to Uppercase/Lowercase
 This trick tests your knowledge of uppercase and lowercase characters in binary. You can convert any character, `ch`, to the opposite case using `ch ^= 32`.
 
 This is because the binary representation of lowercase and uppercase letters are nearly identical, with only 1 bit of difference.
