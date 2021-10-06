@@ -69,7 +69,7 @@ The above function always runs O(n^2) time even if the array is sorted. It can b
 
 import java.io.*;
  
-class GFG
+class Bubble
 {
     // An optimized version of Bubble Sort
     static void bubbleSort(int arr[], int n)
