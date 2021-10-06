@@ -5,10 +5,10 @@ order: "10B"
 section: "Maths for DSA"
 description: "learn maths required in DSA"
 ---
+In this lesson, we are going to learn about the bit-wise operators, and some Bit-manipulation techniques to get optimized solutions. These concepts are very important from competitive programming as well as interviews point of view. Okay, so let's learn these techniques:
 
-# Bit Manipulation
+## Bit Manipulation
 
-## What is Bit Manipulation?
 Bit manipulation is the process of applying logical operations on a sequence of bits, the smallest form of data in a computer, to achieve a required result. Bit manipulation has constant time complexity and process in parallel, meaning it is very efficient on all systems.
 
 Most programming languages will have you work with abstractions, like objects or variables, rather than the bits they represent. However, direct bit manipulation is needed to improve performance and reduce error in certain situations.
@@ -30,7 +30,7 @@ Bit manipulation is also a common topic in coding interviews, especially with FA
 If you’re applying for a role that will work with embedded systems or other low-level systems, you’ll encounter more bit questions. In short, the closer your role is to machine level, the more bit manipulation questions you’ll encounter.
 
 The best way to prepare for bit manipulation questions is to practice using each bitwise operator and brush up on your binary to decimal conversions.
-# Bitwise Operator In Java
+# Bitwise Operators In Java
 You are no doubt familiar with the arithmetic operators such as + - * / or %. You are also aware of logical operators such as & or |. Turns out there is another, a slightly less known set of operators, which manipulate numbers on bit level. Internally, every number is stored in a binary format - that is 0 and 1. Bitwise operators are used for performing manipulation of bits of a number. These can be used with any type of integer data types (char, short, int, etc). 
 
 These operators can be performed on integer types -
@@ -40,7 +40,8 @@ These operators can be performed on integer types -
  * int (32 bit)
  * long (64 bit), and even
  * char (16 bit)
-
+ 
+Now let's see its type one by one:
  ## 1. Unary bitwise complement [~]
 This fancy name basically means bit negation. It takes every single bit of the number and flips its value,i.e, ~0 becomes 1 and vice versa. It is the 1's complement of the number. Unary means that it needs just one operand. The operator is `~` and it is just placed before the number:
 ```java
@@ -146,7 +147,7 @@ a= 5
 ## 5. Signed Left Shift [<<]
 Signed Left Shift takes two operands. It takes the bit pattern of the first operand and shifts it to the left by the number of places given by the second operand. For example 5 << 3: What happens in this case - Every bit in the binary representation of the integer 5 is shifted by 3 positions to the left. All the places on the left are padded by zeros. That is: `00000101` becomes `00101000`. 
 
-You can note that the integer result of 5 << 3 is 40. That shows that shifting a number by one is equivalent to multiplying it by 2, or more generally left shifting a number by n positions is equivalent to multiplication by `2^n` .
+You can note that the integer result of 5 << 3 is 40. That shows that shifting a number by one is equivalent to multiplying it by 2, or more generally left shifting a number by n positions is equivalent to multiplication by `2^n`. In this case, it is 5*2^3 = 40.
 
  * Even though you can use shifting of byte, short or char, they are promoted to 32-bit integer before the shifting
  * Bit-shift operators never throw an exception
@@ -178,22 +179,33 @@ Unlike the signed shift, the unsigned one does not take sign bits into considera
 a = 10
 a>>>1 = 5
 
-Example 2:
 a = -10 
 a>>>1 = 2147483643
 DOES NOT preserve the sign bit. 
 ```
+This operator shifts the first operand to the specified number of bits to the right. Excess bits shifted off to the right are `discarded`. Zero bits are shifted in from the left. The sign bit becomes 0, so the result is `always non-negative`. Unlike the other bitwise operators, zero-fill right shift returns an unsigned 32-bit integer.
+
+For non-negative numbers, zero-fill right shift and sign-propagating right shift yield the same result. For example, 9 >>> 2 yields 2, the same as 9 >> 2:
 ## 8. Unsigned Left Shift [<<<]
 Unlike unsigned Right Shift, there is no “<<<” operator in Java, because the logical (<<) and arithmetic left-shift (<<<) operations are identical. 
+```java
+9 (base 10): 00000000000000000000000000001001 (base 2)
+9 >>> 2 (base 10): 00000000000000000000000000000010 (base 2) = 2 (base 10)
+```
+However, this is not the case for negative numbers. For example, -9 >>> 2 yields 1073741821, which is different than -9 >> 2 (which yields -3):
+```java
+-9 (base 10): 11111111111111111111111111110111 (base 2)
+-9 >>> 2 (base 10): 00111111111111111111111111111101 (base 2) = 1073741821 (base 10)
+```
 
 |Operator  |Example     |Is equivalent to  |
 |----------|------------|------------------|
-|OR=	     |OR= 5	      |x = x OR 5        |
-|^=	       |x ^= 5	    |x = x ^ 5         |
+|OR=	      |x OR= 5	    |x = x OR 5        |
+|^=	       |x ^= 5	     |x = x ^ 5         |
 |&=	       |x &= 5      |x = x & 5         |
-|<<=	     |x <<= 5	    |x = x << 5        |
-|>>=	     |x >>= 5	    |x = x >> 5        |
-|>>>=	     |x >>>= 5  	|x = x >>> 5       |
+|<<=	      |x <<= 5	    |x = x << 5        |
+|>>=	      |x >>= 5	    |x = x >> 5        |
+|>>>=	     |x >>>= 5  	 |x = x >>> 5       |
 
 ```java
 // Java program to illustrate
@@ -226,11 +238,11 @@ a<<2 = 20
 b>>2 = -3
 b>>>2 = 1073741821
 ```
-# Bitwise Tricks And Some Questions
+## Bitwise Tricks And Some Questions
 Now, let’s look at a few tricks you can do using bitwise operators.
 
 These are often used as interview questions to check if you’ve reviewed basic bit manipulation and can apply it to day-to-day coding tasks.
-## Q1. Check for EVEN / ODD
+### Q1. Check for EVEN / ODD
 To check a number is even or odd, we need to look at the number in its binary form first, lets take an eg, 4 ,i.e, `0100`, if we look carefully then we will find out that the 1 present in the number is at `power of 2` position, lets take another example now, 6 ,i.e, `0110`, here both the 1's are at `power of 2` position and now we can conclude that in binary form if the number is at power of 2 position the it is even. Lets check for odd no. now, eg, 5 ,i.e, `0101` here the least significant digit(or `LSD`) is `not` at the `power of 2` position and thus it is odd.
 
 Now, lets look how to solve this,
@@ -242,7 +254,7 @@ if (x & 1 ) == 0
 else
   return false;
 ```
-## Q2. Convert characters to uppercase / lowercase
+### Q2. Convert characters to uppercase / lowercase
 This trick tests your knowledge of uppercase and lowercase characters in binary. You can convert any character, `ch`, to the opposite case using `ch ^= 32`.
 
 This is because the binary representation of lowercase and uppercase letters are nearly identical, with only 1 bit of difference.
@@ -285,7 +297,7 @@ public class Test
 Toggle case: cHErRy
 Original string: CheRrY
 ```
-## Q3. Find Number of Setbits
+### Q3. Find Number of Setbits
 ```java
 class CountSetBit {
     private static int helper(int n) {
@@ -312,7 +324,7 @@ In this approach, we count only the set bits. So,
 
  * If a number has 2 set bits, then the while loop runs two times.
  * If a number has 4 set bits, then the while loop runs four times.
-## Q4. Single Number
+### Q4. Single Number
 You are given an array in which every number appears twice except one number, return that number.
 ```java
 class SingleNumber {
@@ -341,7 +353,7 @@ This solution relies on the following logic:
  * For n numbers, the below math can be applied: a ^ b ^ a = (a ^ a) ^ b = 0 ^ b = b
 
 Therefore, we can XOR all bits together to find the unique number.
-## Q5. Get First Set Bit
+### Q5. Get First Set Bit
 ```java
 class FirstSetBitPosition {
     private static int helper(int n) {
