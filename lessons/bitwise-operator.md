@@ -30,7 +30,7 @@ Bit manipulation is also a common topic in coding interviews, especially with FA
 If you’re applying for a role that will work with embedded systems or other low-level systems, you’ll encounter more bit questions. In short, the closer your role is to machine level, the more bit manipulation questions you’ll encounter.
 
 The best way to prepare for bit manipulation questions is to practice using each bitwise operator and brush up on your binary to decimal conversions.
-# Bitwise Operators In Java
+## Bitwise Operators In Java
 You are no doubt familiar with the arithmetic operators such as + - * / or %. You are also aware of logical operators such as & or |. Turns out there is another, a slightly less known set of operators, which manipulate numbers on bit level. Internally, every number is stored in a binary format - that is 0 and 1. Bitwise operators are used for performing manipulation of bits of a number. These can be used with any type of integer data types (char, short, int, etc). 
 
 These operators can be performed on integer types -
