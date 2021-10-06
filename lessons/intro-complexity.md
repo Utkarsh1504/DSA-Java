@@ -1,7 +1,7 @@
 ---
 path: "/intro-complexity"
-title: "Intro to Complexity Analysis"
-order: "9A"
+title: "Complexity Analysis"
+order: "7A"
 section: "Space & Time Complexity"
 description: "learn about time and space complexity for various algorithms"
 icon: "flask"

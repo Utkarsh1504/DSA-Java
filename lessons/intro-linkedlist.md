@@ -1,8 +1,7 @@
 ---
 path: "/intro-linkedlist"
-title: "Intro to Linked List"
-order: "12A"
+title: "Introduction to Linked List"
+order: "12B"
 section: "Linked Lists"
 description: "learn Linked list from scratch"
-icon: "link"
 ---

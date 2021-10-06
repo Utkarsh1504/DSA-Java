@@ -1,8 +1,7 @@
 ---
-path: "/backtracking"
-title: "Introduction to Backtracking"
-order: "9A"
+path: "/backtrack-nqueen"
+title: "N Queens"
+order: "9C"
 section: "BackTracking In Java"
 description: "learn about backtracking algorithms"
-icon: "sitemap"
 ---

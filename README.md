@@ -55,9 +55,14 @@ For the quick start, you can follow the steps below:
 1. Star <a href="https://github.com/utkarsh1504/DSA-Java" title="this">this</a> repository.
 2. Fork <a href="https://github.com/utkarsh1504/DSA-Java" title="this">this</a> repository.
 3. Clone the **forked** repository.
+4. Set <a href="https://github.com/utkarsh1504/DSA-Java" title="this">this</a> repository as upstream repository. 
 
 ```yml
 git clone https://github.com/<your-github-username>/DSA-Java
+```
+Set upstream command
+```yml
+git remote add upstream https://github.com/Utkarsh1504/DSA-Java.git
 ```
 
 3. Navigate to the project directory.
@@ -84,8 +89,8 @@ Run the following command to install the required dependencies.
 
 6. Stage your changes and commit
 
-```css
-git add -a
+```yml
+git add .
 
 git commit -m "<your_commit_message>"
 ```

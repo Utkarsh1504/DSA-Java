@@ -1,7 +1,7 @@
 ---
-path: "/intro-oop"
-title: "Introduction"
-order: "11A"
+path: "/properties"
+title: "Properties of OOP"
+order: "11C"
 section: "Object Oriented Programming"
 description: "complete introduction to object oriented programming"
 icon: "object-ungroup"
