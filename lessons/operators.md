@@ -214,3 +214,29 @@ public class Main {
 ## **Operators Precedence**
 
 Operators Precedence is the order in which the operators are evaluated. Below is the precedence of the operators.
+![precedence](./images/precedence_java.jpg)
+
+```java
+public class Main {
+	public static void main(String[] args) {
+	  int a = 2, b = 10, c = 0, d = 40, e = 40, f = 30;
+ 
+        // precedence rules for arithmetic operators.
+        // (* = / = %) > (+ = -)
+        // prints a+(b/d)
+        System.out.println("a+b/d = " + (a + b / d));
+ 
+        // if same precendence then associative
+        // rules are followed (evaluation occurs by the order 
+        //in which the operators are present from left to right)
+        // e/f -> b*d -> a+(b*d) -> a+(b*d)-(e/f)
+        System.out.println("a+b*d-e/f = "
+                           + (a + b * d - e / f));
+	}
+}
+```
+Output:
+```
+a+b/d = 2
+a+b*d-e/f = 401
+```
