@@ -6,7 +6,7 @@ section: "Maths for DSA"
 description: "learn maths required in DSA"
 ---
 In this lesson, we are going to learn about the bit-wise operators, and some Bit-manipulation techniques to get optimized solutions. These concepts are very important from competitive programming as well as interviews point of view. Okay, so let's learn these techniques:
-
+In this lesson, we are going to learn about the bit-wise operators, and some Bit-manipulation techniques to get optimized solutions. These concepts are very important from competitive programming as well as interviews point of view. Okay, so let's learn these techniques:
 ## Bit Manipulation
 
 Bit manipulation is the process of applying logical operations on a sequence of bits, the smallest form of data in a computer, to achieve a required result. Bit manipulation has constant time complexity and process in parallel, meaning it is very efficient on all systems.
