@@ -18,7 +18,7 @@ Please note that by participating, you are expected to uphold the [Contributor C
 
 ## Lesson
 
-The crux of this site is are the `lesson`. Provided are two examples. Each lesson needs a frontmattter path, order, and title. Generally you should make the path and the file name match for ease of finding it.
+The crux of this site is are the `lesson`. Provided are two examples. Each lesson needs a frontmatter path, order, and title. Generally you should make the path and the file name match for ease of finding it.
 
 - In `Lesson` directory there are various sections. You can start contributing from there.
 - Inside each of the sections `lesson` present in the form of markdown. If you wanted to add a new lesson make a new file with `.md` extension and add at the top it.
