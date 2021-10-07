@@ -47,7 +47,7 @@ There are `two types` of Arrays:
 * Single Dimensional Arrays
 * Multidimentional Arrays
 
-## Lets understand about these in details :
+Let's understand these in detail:
 
 ## **1.One-Dimensional Arrays**
 The general form of a one-dimensional array declaration is
