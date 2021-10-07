@@ -7,8 +7,6 @@ description: "arrays"
 icon: "map"
 ---
 
-# **ARRAYS**
-## **Why do we need array ?**
 It was simple when we used to store just a couple of numbers, we just make some variables for that and store respectively. But what if we want to store 50 numbers? Ofcource, we can make 50 variables and store but that would be very childish approach and inappropriate. And now assume we have to 5000 numbers, we can't make just 5000 variables.
 
 To handle this situation, in almost all programming languages we have a concept called `Arrays`
