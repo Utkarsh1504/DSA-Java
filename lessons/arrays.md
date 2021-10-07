@@ -190,7 +190,7 @@ An array of objects is created just like an array of primitive type data items i
 ```java
  Student[] arr = new Student[7]; //student is a user-defined class
 ```
-The studentArray contains seven memory spaces each of size of student class in which the address of seven Student objects can be stored.The Student objects have to be instantiated using the constructor of the Student class and their references should be assigned to the array elements in the following way.
+The Student array `arr` contains seven memory spaces each of the size of student class in which the address of seven Student objects can be stored. The Student objects have to be instantiated using the constructor of the Student class and their references should be assigned to the array elements in the following way.
 ```java
 Student[] arr = new Student[5];
 ```
