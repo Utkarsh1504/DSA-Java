@@ -9,7 +9,7 @@ description: "learn Searching n sorting algorithms"
 
 Sorting is an everyday tool for programmers.We need to sort many things for many reasons.Like sorting to age,price etc.So
 there are many sorting algorithms  like Merge Sort , Quick Sort, Bubble sort etc. 
-#Stable & Unstable Sorting
+## **Stable & Unstable Sorting**
 If Two elements in  array has same value, After sorting two things can happen. 
 1. They  exchange their relative position.
 2. They don't exchange their relative position.
@@ -20,7 +20,7 @@ stable sorting algorithms.
 Merge Sort ,Bubble Sort, insertion sort are actually stable sorting algorithm.
 On the other hand,Heap Sort, Quick Sort etc are unstable sorting algorithms.
 
-##Bubble Sort 
+## **Bubble Sort** 
 Bubble Sort is the simplest algorithm. This is named Bubble Sort because its element just swap
 one by one.
 It doesn't have any special use in sorting.It is actually used for educational purposes to introduces
@@ -46,11 +46,9 @@ Comparison 3: 6>3 -> YES swap the positions Then the array will be [2,3,6]
 
 </li>
 </ul>
-Boom, We have sorted the array. 
+Boom, We have sorted the array.Now let's try to do this in Java.
 
-Now let's try to do this in Java.
-
-## Bubble Sort Function
+## **Bubble Sort Function**
 ```java 
 void bubbleSort(int array[], int length){
 
@@ -69,7 +67,7 @@ void bubbleSort(int array[], int length){
 
 ```
 
-#Complete Program In Java
+## **Complete Program In Java**
 ```java 
 public class Main {
   static int array[] = {2, 1, 6, 5, 4};
@@ -117,11 +115,11 @@ public class Main {
 }
 
 ```
-##Time Complexity
+## **Time Complexity**
 Now talk about the time complexity of this algorithm.From the coding algorithm that is clear that we have to use a loop and 
 a nested loop. So the complexity becomes O(n*n).
 
-##Space Complexity
+## **Space Complexity**
 Here Space complexity is O(1). We just have to make a temp variable which is updated throughout the loop and doesn't need to
 create anything new.
 
