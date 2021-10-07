@@ -16,9 +16,20 @@ Please note that by participating, you are expected to uphold the [Contributor C
 
 ---
 
+## Terms
+
+Here are some terms that we will use in this repo:
+
+- `path` needs a leading slash. This will be slug of the lesson
+- `title`- will be the title displayed on the `Table of Contents` and on the page itself
+- `order`- the order of which the item should appear in the table of contents. should in `<Number><Capital-letter>` format where the number corresponds to the section itself and the letter corresponds to the order of the lesson inside the section, e.g. 3B means under the section 3 and the order of the lesson will be B(second)
+- `section` - the title of the section that the article is in. Only the first lesson for each section will be used.
+- `description` - a one-to-three sentence summary of the lesson. used for the meta tag for social shares and SEO. if no description is given, the siteMetadata.description for the site is used.
+- `icon` the Font Awesome icon you want for the home page of the site
+
 ## Lesson
 
-The crux of this site is are the `lesson`. Provided are two examples. Each lesson needs a frontmattter path, order, and title. Generally you should make the path and the file name match for ease of finding it.
+The crux of this site is are the `lesson`. Provided are two examples. Each lesson needs a frontmatter path, order, and title. Generally you should make the path and the file name match for ease of finding it.
 
 - In `Lesson` directory there are various sections. You can start contributing from there.
 - Inside each of the sections `lesson` present in the form of markdown. If you wanted to add a new lesson make a new file with `.md` extension and add at the top it.
@@ -36,17 +47,6 @@ The crux of this site is are the `lesson`. Provided are two examples. Each lesso
 
 - Modify this according to your contribution and go ahead
 - For writing concepts, take a look at the other [lessons]('lesson/Learn-Programming-Language/operator.md') markdown and make sure it is written in a similar way.
-
-## Terms
-
-Here are some terms that we will use in this repo:
-
-- `path` needs a leading slash. This will be slug of the lesson
-- `title`- will be the title displayed on the `Table of Contents` and on the page itself
-- `order`- the order of which the item should appear in the table of contents. should in `<Number><Capital-letter>` format where the number corresponds to the section itself and the letter corresponds to the order of the lesson inside the section, e.g. 3B means under the section 3 and the order of the lesson will be B(second)
-- `section` - the title of the section that the article is in. Only the first lesson for each section will be used.
-- `description` - a one-to-three sentence summary of the lesson. used for the meta tag for social shares and SEO. if no description is given, the siteMetadata.description for the site is used.
-- `icon` the Font Awesome icon you want for the home page of the site
 
 ## Requesting A Lesson
 
