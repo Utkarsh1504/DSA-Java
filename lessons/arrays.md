@@ -12,9 +12,7 @@ It was simple when we used to store just a couple of numbers, we just make some 
 To handle this situation, in almost all programming languages we have a data structure called `Arrays`. 
 
 ## **What is an Array ?**
-Array is a data structure use to store a collection of data of same data type
-
-Normally, an array is a collection of similar type of elements which has contiguous memory location.
+An array is a data structure used to store a collection of data of the same data type. Normally, an array is a collection of similar type of elements which has contiguous memory location.
 
 Java array is an object which contains elements of a similar data type. Additionally, The elements of an array are stored in a contiguous memory location. It is a data structure where we store similar elements. We can store only a fixed set of elements in a Java array.
 
