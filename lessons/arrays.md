@@ -248,7 +248,7 @@ Element at 4 : 5 mohit
 ```
 ### **What happens if we try to access element outside the array size?**
 
-JVM throws ArrayIndexOutOfBoundsException to indicate that array has been accessed with an illegal index. The index is either negative or greater than or equal to size of array.
+JVM throws **ArrayIndexOutOfBoundsException** to indicate that array has been accessed with an illegal index. The index is either negative or greater than or equal to the size of an array.
 
 ```java
 class GFG
