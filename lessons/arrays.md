@@ -149,7 +149,7 @@ for (int i = 0; i < arr.length; i++)
 // of integers,  puts some values in the array,
 // and prints each value to standard output.
   
-class GFG 
+class Main 
 {
     public static void main (String[] args) 
     {         
