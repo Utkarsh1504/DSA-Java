@@ -20,7 +20,7 @@ Array in Java is index-based, the first element of the array is stored at the 0t
 
 ![Array Indicing.png](https://github.com/shoebxsiddiqui/DSA-Java/blob/shoebxsiddiqui-Arrays/lessons/images/Array%20Indicing.png)
 
-Unlike C/C++, we can get the length of the array using the length member. In C/C++, we need to use the sizeof operator.
+Unlike C/C++, we can get the length of the array using the `length` member. In C/C++, we need to use the `sizeof` operator.
 
 In Java, array is an object of a dynamically generated class. Java array inherits the Object class, and implements the Serializable as well as Cloneable interfaces. We can store primitive values or objects in an array in Java. Like C/C++, we can also create single dimentional or multidimentional arrays in Java.
 
