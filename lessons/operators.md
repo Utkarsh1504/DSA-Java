@@ -48,12 +48,12 @@ There are two types to each of them:
 - **Postfix Decrementer Operator**: used to decrement the value of the operand by 1.
   now do some question based on the above operators.
 
-| **Pre Increment**                                         | **Post Increment**                                                                                         | **Pre Decrement**                                       | **Post Decrement**                                                                                         |
-| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| **++x**                                                   | **x++**                                                                                                    | **--x**                                                 | **x--**                                                                                                    |
-| Increment `x` instantly                                   | Current value of `x` is preserved temporarily. `x` will get incremented before next statement is executed. | Decrement `x` instantly                                 | Current value of `x` is preserved temporarily. `x` will get decremented before next statement is executed. |
-| int x = 10; int y; y = ++x; `System.out.println(x+" "+y)` | int x = 10; int y; y = x++; `System.out.println(x+" "+y)`                                                  | int x=10; int y; y = --x; `System.out.println(x+" "+y)` | int x = 10; int y; y = x--; `System.out.println(x+" "+y)`                                                  |
-| **a=11, b=11**                                            | **a=11, b=10**                                                                                             | **a=9, b=9**                                            | **a=9, b=10**                                                                                              |
+| **Operators**     | **Representation** | **Description**                                                                                            | **Example**                                                                     |
+| ----------------- | ------------------ | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| Prefix Increment  | **++x**            | Increment `x` instantly                                                                                    | int x = 10; int y; y = ++x; `System.out.println(x+" , "+y)` **Output: 11 , 11** |
+| Postfix Increment | **x++**            | Current value of `x` is preserved temporarily. `x` will get incremented before next statement is executed. | int x = 10; int y; y = x++; `System.out.println(x+" , "+y)` **Output: 11 , 10** |
+| Prefix Decrement  | **--x**            | Decrement `x` instantly                                                                                    | int x = 10; int y; y = --x; `System.out.println(x+" , "+y)` **Output: 9 , 9**   |
+| Postfix Decrement | **x--**            | Current value of `x` is preserved temporarily. `x` will get decremented before next statement is executed. | int x = 10; int y; y = x--; `System.out.println(x+" , "+y)` **Output: 9 , 10**  |
 
 ## **Relational Operators**
 
@@ -70,9 +70,9 @@ Relational operators are used to compare the values of two operands. They are us
 
 Logical operators are used to perform logical operations. They are used to perform the following operations:
 
-- `&&` and `&`: Java unlike many other languages has two AND operators to perform logical AND operation. It returns true if both the operands (being compared) have a truthy value. Even though both the `&` and `&&` operators perform the same AND operation; the `&&` operator is a logical operator and it  can improve the efficiency of your code since it evaluates the second expression only if the first expression is true unlike the bitwise `&` operator which evaluates the second expression nonetheless. 
+- `&&` and `&`: Java unlike many other languages has two AND operators to perform logical AND operation. It returns true if both the operands (being compared) have a truthy value. Even though both the `&` and `&&` operators perform the same AND operation; the `&&` operator is a logical operator and it can improve the efficiency of your code since it evaluates the second expression only if the first expression is true unlike the bitwise `&` operator which evaluates the second expression nonetheless.
 
-- `||` and `|`: OR is used to perform logical OR operation. It returns true if either of the operands have a truthy value. The difference between `|` and `||` is that the `|` operator is a bitwise operator and it compares each operand bitwise whereas the `||` operator is the logical OR operator. It operates on both the operands and returns true if either of the operands have a truthy value. 
+- `||` and `|`: OR is used to perform logical OR operation. It returns true if either of the operands have a truthy value. The difference between `|` and `||` is that the `|` operator is a bitwise operator and it compares each operand bitwise whereas the `||` operator is the logical OR operator. It operates on both the operands and returns true if either of the operands have a truthy value.
 - `!`: NOT used to perform logical NOT operation. It gives true if the operand has false value.
 
 let's see an example:
