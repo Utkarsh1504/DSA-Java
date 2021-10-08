@@ -12,7 +12,7 @@ export default function Footer({ twitter, linkedin, github }) {
       <ul className="socials">
         {twitter ? (
           <li className="social">
-            <a href="https://twitter.com/umishra1504">
+            <a href="https://linkedin.com/in/umishra-1504">
               <Tw />
             </a>
           </li>
