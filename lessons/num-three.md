@@ -18,7 +18,6 @@ Let's first try to understand what Bitmask means. Mask in Bitmask means hiding s
 
 ***Set the ith bit*** : b|(i<<i). Let i = 0,so, 
 
-(1<<i). let i =0, so, : b |(1<<i). let i =0, so, 
 
 (1<<i) = 00001
 01010 | 00001 = 01011
