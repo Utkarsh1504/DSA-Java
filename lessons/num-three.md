@@ -16,7 +16,7 @@ Let's first try to understand what Bitmask means. Mask in Bitmask means hiding s
 
 *Now the benefit of using bitmask. We can set the ith bit, unset the ith bit, check if ith bit is set in just one step each. Let's say the bitmask b = 01010.*
 
-***Set the ith bit*** : b|(i<<i). Let i = 0,so, 
+***Set the ith bit*** : b|(1<<i). Let i = 0, so, 
 
 
 (1<<i) = 00001
