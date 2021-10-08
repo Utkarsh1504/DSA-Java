@@ -6,7 +6,7 @@ section: "Maths for DSA"
 description: "learn maths required in DSA"
 ---
 
-## In this article we are going to discuss some more concepts under *Number Theory*.
+In this article, we are going to discuss some more concepts under *Number Theory*. 
 <!-- Bit Masking + DP -->
 ## 1. Bit Masking + Dynamic Programming 
 
