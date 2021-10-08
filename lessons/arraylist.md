@@ -184,4 +184,4 @@ Removed: Sachin
 - It allows random access.
 - ArrayList is not Synchronized  
 - To convert ArrayList into an array we use toArray() method.
-- To converst array into an arraylist we use asList() method.	
+- To convert array into an arraylist we use asList() method.	
