@@ -46,7 +46,7 @@
 
 ## **About**
 
-We are building a site which will contain all the DS-Algo related things. It will contain just the relevent concept which are needed to get started from stratch to go upto it's hard parts. It will also contains some assigment question from different-different platforms. It is completely free, open-sourced, everyone can use it to learn, taking notes, doing revision, making tutorial etc. That's all the goal is.
+We are building a site which will contain all the DS-Algo related things. It will contain just the relevent concepts which are needed to get started from stratch to go upto it's hard parts. It will also contains some assigment question from different-different platforms. It is completely free, open-sourced, everyone can use it to learn, taking notes, doing revision, making tutorial etc. That's all the goal is.
 
 ## **Getting Started**
 
