@@ -15,7 +15,7 @@ You will also need the following softwares:
 - IDEs
 
 
-# Java Architecture
+## Java Architecture
 Java Architecture combines the process of compilation and interpretation. It explains the various processes involved whilst formulating a Java program
 The explaination of  the java architecture in simple steps are as follows:
 
@@ -27,12 +27,12 @@ The explaination of  the java architecture in simple steps are as follows:
 ### Components of Java Architecture
 There are three main components of Java language:
 
-- **JVM:** Java Virtual Machine, 
+- **JVM:** Java Virtual Machine 
 - **JRE:** Java Runtime Environment 
-- **JDK:** Java Development Kit respectively.
+- **JDK:** Java Development Kit
 
 ### Java Virtual Machine:
-Java applications are called WORA because of their ability to run a code on any platform. This is done only because of JVM. The JVM is a Java platform component that provides an environment for executing Java programs. JVM interprets the bytecode into machine code which is executed in the machine in which the Java program runs.
+Java applications are called WORA(Write Once, Run Anywhere) because of their ability to run a code on any platform. This is done only because of JVM. The JVM is a Java platform component that provides an environment for executing Java programs. JVM interprets the bytecode into machine code which is executed in the machine in which the Java program runs.
 
 So, in a nutshell, JVM performs the following functions:
 - Loads the code
@@ -69,7 +69,7 @@ you use bash as your shell, then you would add the following line to the end of 
 
 ## IDEs
 
-It is a software development environment for writing, debugging, and testing Java programs. we can write code very smoothly using IDE.There are many IDE's available for java. for example, **[IntelliJ IDEA](https://www.jetbrains.com/idea/)**, [Eclipse](https://www.eclipse.org/downloads/), [Netbeans](https://netbeans.apache.org/download/nb120/nb120.html), etc.
+It is a software development environment for writing, debugging, and testing Java programs. we can write code very smoothly using IDE. There are many IDE's available for java. for example, **[IntelliJ IDEA](https://www.jetbrains.com/idea/)**, [Eclipse](https://www.eclipse.org/downloads/), [Netbeans](https://netbeans.apache.org/download/nb120/nb120.html), etc.
 
 
 After setting up JDK, install anyone of the of your favorite IDE just by clicking on the link and install it.
