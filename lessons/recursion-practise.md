@@ -34,7 +34,8 @@ Output: 125
 <img src="images/rec-tree.png" alt="Rec-Relation" width="600" />
 </center>
 
-### **Time Complexity : O(log(n))**
+### **Time Complexity :**
+O(log(n))
 
 ### **Code :**
 ```java
@@ -87,71 +88,34 @@ As Element 2 is present at indices 1, 3, 4 (0 based indexing)
 
 ### **Code :**
 ```java
-public class RecursiveFindIndices {
- 
-    public static int[] AllIndexesRecursive(int input[],
-                                int x, int start)
-    {
-        // If the start index reaches the
-        // length of the array, then
-        // return empty array
-        if (start == input.length) {
-            int[] ans = new int[0]; // empty array
-            return ans;
-        }
- 
-        // Getting the recursive answer in
-        // smallIndex array
-        int[] smallIndex = AllIndexesRecursive(input, x,
-                                              start + 1);
- 
-        // If the element at start index is equal
-        // to x then
-        // (which is the answer of recursion) and then
-        // (which came through recursion)
-        if (input[start] == x) {
-            int[] myAns = new int[smallIndex.length + 1];
- 
-            // Put the start index in front
-            // of the array
-            myAns[0] = start;
-            for (int i = 0; i < smallIndex.length; i++) {
-                 
-                // Shift the elements of the array
-                // one step to the right
-                // and putting them in
-                // myAns array
-                myAns[i + 1] = smallIndex[i];
-            }
-            return myAns;
-        }
-        else {
-             
-            // If the element at start index is not
-            // equal to x then just simply return the
-            // answer which came from recursion.
-            return smallIndex;
-        }
-    }
- 
-    public static int[] AllIndexes(int input[], int x)
-    {
- 
-        return AllIndexesRecursive(input, x, 0);
-    }
-     
-    // Driver Code
-    public static void main(String args[])
-    {
-        int arr[] = { 1, 2, 3, 2, 2, 5 }, x = 2;
-         
-        int output[] = AllIndexes(arr, x);
-         
-        // Printing the output array
-        for (int i = 0; i < output.length; i++) {
-            System.out.print(output[i] + " ");
-        }
-    }
+public class FindAllIndices {
+	public static int[] printAllIndex(int[] input, int x, int startIndex) {
+		if (startIndex == input.length) {
+			int[] output = new int[0];
+			return output;
+		}
+		int[] smallOutput = printAllIndex(input, x, startIndex + 1);
+		if (input[startIndex] == x) {
+			int[] output = new int[smallOutput.length + 1];
+			output[0] = startIndex;
+			for (int i = 0; i < smallOutput.length; i++) {
+				output[i + 1] = smallOutput[i];
+			}
+			return output;
+		} else {
+			return smallOutput;
+		}
+	}
+	public static int[] printAllIndex(int[] input) {
+		return printAllIndex(input, 2, 0);
+	}
+	public static void main(String[] args) {
+		int[] arr = { 1, 2, 3, 2, 2, 5 };
+		arr = printAllIndex(arr);
+		for (int j : arr) {
+			System.out.print(j + " ");
+		}
+	}
 }
 ```
 ### **Output :**
