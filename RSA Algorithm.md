@@ -138,5 +138,9 @@ int main()
 ## Output :
 
 >> Message data = 12.000000
+
 >> Encrypted data = 3.000000
+
 >> Original Message Sent = 12.000000
+
+
