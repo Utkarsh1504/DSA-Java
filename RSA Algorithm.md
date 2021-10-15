@@ -51,21 +51,21 @@ This algorithm is instrumental to the modern civilization because it solved the 
 Now we are ready with our – Public Key ( n = 3127 and e = 3) and Private Key(d = 2011)
 
 Now we will encrypt “HI” :
-
 * Convert letters to numbers : H  = 8 and I = 9
     
 * Thus Encrypted Data c = 89e mod n. 
   Thus our Encrypted Data comes out to be 1394
 
 Now we will decrypt 1394 : 
-    
 * Decrypted Data = cd mod n. 
   Thus our Encrypted Data comes out to be 89
   8 = H and I = 9 i.e. "HI".
   
-  ## C implementation of RSA algorithm for small values:
+  ---
+ 
+## C implementation of RSA algorithm for small values:
   
-  / C program for RSA asymmetric cryptographic
+/ C program for RSA asymmetric cryptographic
 // algorithm. For demonstration values are
 // relatively small compared to practical
 // application
