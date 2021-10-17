@@ -37,3 +37,49 @@ Now, How do you find `n!` of a given number?
 
 A recursive call can result in many more recursive calls, because the method keeps on dividing a subproblem into new subproblems. For a recursive method to terminate, the problem must eventually be reduced to a stopping case, at which point the method returns a result to its caller. The caller then performs a computation and returns the result to its own caller. This process continues until the result is passed back to the original caller. The original problem
 can now be solved by multiplying `n` by the result of **factorial(n - 1)**.
+
+```java
+    import java.util.Scanner;
+
+    public class CalculateFactorial {
+    /** Main method */
+        public static void main(String[] args) {
+        // Create a Scanner
+            Scanner input = new Scanner(System.in);
+            System.out.print("Enter a nonnegative integer: ");
+            int n = input.nextInt();
+            
+            // Display factorial
+            System.out.println("Factorial of " + n + " is " + factorial(n));
+        }
+
+        /** Return the factorial for the specified number */
+        public static long factorial(int n) {
+            if (n == 0) // Base case
+                return 1;
+            else
+                return n * factorial(n - 1); // Recursive call
+        }
+    }
+```
+##### Output:
+```yml
+eg-1:
+Enter a nonnegative integer: 4
+Factorial of 4 is 24 
+
+eg-2:
+Enter a nonnegative integer: 10
+Factorial of 10 is 3628800
+```
+The `factorial` method is essentially a direct translation of the recursive mathematical definition for the factorial into Java code. The call to factorial is recursive
+because it calls itself. The parameter passed to factorial is decremented until it reaches the base case of 0. You see how to write a recursive method. How does recursion work behind the scenes? Below diagram illustrates the execution of the recursive calls, starting with n = 4.
+
+![fact](./images/fact.png)
+
+```java
+public static long factorial(int n) {
+    return n * factorial(n - 1);
+ }
+```
+The example discussed in this section shows a recursive method that invokes itself. This is known as direct recursion. It is also possible to create indirect recursion. This occurs when method A invokes method B, which in turn invokes method A. There can even be seeral more methods involved in the recursion. For example, method A invokes method B, which invoke method C, which invokes method A.
