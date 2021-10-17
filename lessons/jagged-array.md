@@ -135,3 +135,14 @@ Contents of 2D Jagged Array
 10 11 12 13 14 
 
 
+### Applications
+
+After having learnt about Jagged Arrays, you must be wondering, where you should use them? Well, continue reading....
+
+A matrix is typically stored as a 2D arrays. It may be called as a "dense" representation. It's called dense because it stores each and every element of the array. But in some cases many elements of the array are 0 (or perhaps some other value) and it doesn't make sense to store them explicitly. These are called "sparse" matrix.
+
+Now coming to the applications and uses-
+- A lot of sparse matrix representations use a small number of 1D arrays.
+Really jagged arrays are definitely useful in situations where you don't want each 1D array to have the same length. Jagged arrays also make it somewhat easier to swap out entire "rows".
+- It should be noted that, jagged arrays usually have better performance than multidimensional arrays.
+- When using jagged arrays you can easily perform operations like row swap and row resize. Maybe in some cases usage of multidimensional arrays will be more safe, but jagged arrays should be used instead of multidimensional when you use it for analysis purposes.
