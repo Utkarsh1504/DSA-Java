@@ -6,11 +6,9 @@ section: "Arrays"
 description: "arrays"
 ---
 
-## Subarrays/Substrings
-
-> A subarray is a contiguous part of array - An array that is inside another array. 
+> A subarray is a contiguous part of any given array. Basically speaking, an array that is present inside another array or a part of that array, but in a continuous manner.
 For eg., consider the array [1, 2, 3, 4], There are 10 non-empty sub-arrays in this. 
-The subarrays are (1), (2), (3), (4), (1,2), (2,3), (3,4), (1,2,3), (2,3,4) and (1,2,3,4). 
+The subarrays are [1], [2], [3], [4], [1,2], [2,3], [3,4], [1,2,3], [2,3,4] and [1,2,3,4]. 
 In general, for an array/string of size n, there are n*(n+1)/2 non-empty subarrays/substrings.
 
 
@@ -64,12 +62,12 @@ All Non-empty Subarrays
 3 
 3 4 
 4
-Time Complexity: O(n^2)  
+**Time Complexity: O(n^2)**  
 
 
 ### Generating subarrays using recursion
 Input : [1, 2, 3]
-Output : [1], [1, 2],[1,3], [2], [1, 2, 3], [2, 3], [3]
+Output : [1], [1, 2], [1, 3], [2], [1, 2, 3], [2, 3], [3]
 
 Input : [1, 2]
 Output : [1], [1, 2], [2]
@@ -78,9 +76,9 @@ Output : [1], [1, 2], [2]
 
 #### Approach
 - We use two pointers, NAMELY, `start` and `end` to maintain the starting and ending point of the array and follow the steps given below: 
--- Stop if we have reached the end of the array
--- Increment the end index if start has become greater than end
--- Print the subarray from index start to end and increment the starting index.
+- Stop if we have reached the end of the array
+- Increment the `end` index if `start` has become greater than the `end` index.
+- Print the subarray from the `start` index to the `end` index and increment the `start` index.
 
 Below is the implementation of the above approach.
 
@@ -133,5 +131,5 @@ Below is the implementation of the above approach.
 [3]
  
 
-Time Complexity: O(n^2)   
+**Time Complexity: O(n^2) **  
 
