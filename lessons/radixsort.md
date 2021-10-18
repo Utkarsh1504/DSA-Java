@@ -3,9 +3,8 @@ path: "/radixsort"
 title: "Radix Sort"
 order: "5G"
 section: "Searching & Sorting"
-description: "learn Sorting algorithms"
+description: "learn radix sort algorithms"
 ---
-
 
 Radix sort is a sorting algorithm that sorts the elements by first grouping the individual digits of the same place value. Then, sort the elements according to their increasing/decreasing order.
 
@@ -18,7 +17,7 @@ Suppose, we have an array of 8 elements. First, we will sort elements based on t
 for example in the array [121, 432, 564, 23, 1, 45, 788], we have the largest number 788. It has 3 digits. Therefore, the loop should go up to hundreds place (3 times).
 
 2. Now, go through each significant place one by one.
-Use any stable sorting technique to sort the digits at each significant place. We have used counting sort for this.
+   Use any stable sorting technique to sort the digits at each significant place. We have used counting sort for this.
 
 Sort the elements based on the unit place digits (X=0).
 
@@ -30,7 +29,6 @@ Sort the elements based on the unit place digits (X=0).
 
 ```java
 // Radix Sort in Java Programming
-
 import java.util.Arrays;
 
 class RadixSort {
@@ -96,6 +94,7 @@ class RadixSort {
   }
 }
 ```
+
 ## Complexity analysis
 
 Time Complexity
@@ -115,5 +114,3 @@ Here, d is the number cycle and O(n+k) is the time complexity of counting sort.
 Thus, radix sort has linear time complexity which is better than O(nlog n) of comparative sorting algorithms.
 If we take very large digit numbers or the number of other bases like 32-bit and 64-bit numbers then it can perform in linear time however the intermediate sort takes large space.
 This makes radix sort space inefficient. This is the reason why this sort is not used in software libraries.
-
-
