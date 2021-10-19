@@ -1,32 +1,30 @@
 ---
-path: "/jagged-arrays"
+path: "/jagged-array"
 title: "Jagged Arrays"
 order: "4F"
 section: "Arrays"
 description: "arrays"
 ---
 
-> A jagged array is an array of arrays such that member arrays can be of different sizes.
-We can create a 2-D array but with a variable number of columns in each row. 
-These types of arrays are also known as Jagged arrays.
+> A jagged array is an array of arrays such that the member arrays can be of different sizes.
+We can create a 2-D(multi-dimensional) array but with a variable number of columns in each row. 
+These types of arrays are known as Jagged arrays.
 
 ![java-jaggedarray](./images/java-jagged-array.png)
 
 #### Declaration and Initialization of Jagged array :
 ##### Syntax : 
-data_type array_name[][] = new data_type[n][];  //n: no. of rows
 
 ```java
-    array_name[] = new data_type[n1] //n1= no. of colmuns in row-1
-    array_name[] = new data_type[n2] //n2= no. of colmuns in row-2
-    array_name[] = new data_type[n3] //n3= no. of colmuns in row-3
-                                       .
-                                       .
-                                       .
-    array_name[] = new data_type[nk]  //nk=no. of colmuns in row-n
-```
-
-
+    data_type array_name[][] = new data_type[n][];  //n: no. of rows
+        array_name[] = new data_type[n1]; //n1= no. of colmuns in row-1
+        array_name[] = new data_type[n2]; //n2= no. of colmuns in row-2
+        array_name[] = new data_type[n3]; //n3= no. of colmuns in row-3
+                                .                
+                                .                
+                                .              
+        array_name[] = new data_type[nk];  //nk=no. of colmuns in row-n
+```      
 #### Alternative, ways to Initialize a Jagged array :
 ```java
     int arr_name[][] = new int[][]  {
@@ -34,8 +32,7 @@ data_type array_name[][] = new data_type[n][];  //n: no. of rows
         new int[] {67, 81},
         new int[] {12, 91, 1, 17}
     };
-```
-                                      
+```                                  
 OR   
 ```java
     int[][] arr_name = {
@@ -54,35 +51,35 @@ OR
 ```
 
 ```java
-class Main {
-    public static void main(String[] args)
-    {
-        // Declaring 2-D array with 2 rows
-        int arr[][] = new int[2][];
- 
-        // Making the above array Jagged
- 
-        // First row has 3 columns
-        arr[0] = new int[3];
- 
-        // Second row has 2 columns
-        arr[1] = new int[2];
- 
-        // Initializing array
-        int count = 0;
-        for (int i = 0; i < arr.length; i++)
-            for (int j = 0; j < arr[i].length; j++)
-                arr[i][j] = count++;
- 
-        // Displaying the values of 2D Jagged array
-        System.out.println("Contents of 2D Jagged Array");
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[i].length; j++)
-                System.out.print(arr[i][j] + " ");
-            System.out.println();
+    class Main {
+        public static void main(String[] args)
+        {
+            // Declaring 2-D array with 2 rows
+            int arr[][] = new int[2][];
+    
+            // Making the above array Jagged
+    
+            // First row has 3 columns
+            arr[0] = new int[3];
+    
+            // Second row has 2 columns
+            arr[1] = new int[2];
+    
+            // Initializing array
+            int count = 0;
+            for (int i = 0; i < arr.length; i++)
+                for (int j = 0; j < arr[i].length; j++)
+                    arr[i][j] = count++;
+    
+            // Displaying the values of 2D Jagged array
+            System.out.println("Contents of 2D Jagged Array");
+            for (int i = 0; i < arr.length; i++) {
+                for (int j = 0; j < arr[i].length; j++)
+                    System.out.print(arr[i][j] + " ");
+                System.out.println();
+            }
         }
     }
-}
 ```
 
 ##### Output
