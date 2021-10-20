@@ -22,9 +22,9 @@ Here are some terms that we will use in this repo:
 
 - `path` needs a leading slash. This will be slug of the lesson
 - `title`- will be the title displayed on the `Table of Contents` and on the page itself
-- `order`- the order of which the item should appear in the table of contents. should in `<Number><Capital-letter>` format where the number corresponds to the section itself and the letter corresponds to the order of the lesson inside the section, e.g. 3B means under the section 3 and the order of the lesson will be B(second)
+- `order`- the order of which the item should appear in the table of contents. It should be in `<Number><Capital-letter>` format where the number corresponds to the section itself and the letter corresponds to the order of the lesson inside the section, e.g. 3B means under the section 3 and the order of the lesson will be B(second)
 - `section` - the title of the section that the article is in. Only the first lesson for each section will be used.
-- `description` - a one-to-three sentence summary of the lesson. used for the meta tag for social shares and SEO. if no description is given, the siteMetadata.description for the site is used.
+- `description` - a one-to-three sentence summary of the lesson. Used for the meta tag for social shares and SEO. If no description is given, the siteMetadata.description for the site is used.
 - `icon` the Font Awesome icon you want for the home page of the site
 
 ## Lesson
