@@ -171,7 +171,7 @@ class GFG
             return;
         }
         tower_of_hanoi(n-1, from_rod, temp_rod, to_rod);
-        System.out.println("Move disk " + n + " from rod " +  from_rod + " to rod " + to_rod);
+        System.out.println("Disk " + n + " moved from rod " +  from_rod + " to rod " + to_rod);
         tower_of_hanoi(n-1, temp_rod, to_rod, from_rod);
     }
 
