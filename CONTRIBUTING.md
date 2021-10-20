@@ -87,7 +87,7 @@ Before you submit your PR, please ensure that they meet the following standard:
 Here are some guidelines for writing markdown, In the same fashion you have to write the markdown for the lessons:
 
 - All the main headings should be in `##` or `<h2>` format.
-- please do not use any heading at the top of the lesson, it will be used by default by the frontmatters, so don't start writing your lesson with a heading.
+- please do not use any heading at the start of the lesson, it will be used by default by the frontmatters, so don't start writing your lesson with a heading.
 - All the subheadings should be in `###` or `<h3>` or `####`, `<h4>` format and so on.
 
 ## Communication
