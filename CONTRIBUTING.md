@@ -12,6 +12,7 @@ Please note that by participating, you are expected to uphold the [Contributor C
 - [Fixing Typos](#fixing-typos)
 - [Improving Lesson](#improving-lesson)
 - [Our Standards](#our-standards)
+- [Markdown Format](#markdown-format)
 - [Communication](#communication)
 
 ---
@@ -80,6 +81,14 @@ Before you submit your PR, please ensure that they meet the following standard:
 - Content inside the lesson should not be copied or plagarized from any other resources, you need to write your own content using your understanding about the concept.
 - Code example should not copied from anywhere else, you should set example by your own.
 - for adding images and gifs related to the lesson, make sure it is copyright free and not used for commercial purpose. but in case you don't find any image or gif on internet, you can use the [draw.io](draw.io) to make your own images. Images and gif used should be kept in `lesson/images/` directory.
+
+## Markdown Format
+
+Here are some guidelines for writing markdown, In the same fashion you have to write the markdown for the lessons:
+
+- All the main headings should be in `##` or `<h2>` format.
+- please do not use any heading at the top of the lesson, it will be used by default by the frontmatters, so don't start writing your lesson with a heading.
+- All the subheadings should be in `###` or `<h3>` or `####`, `<h4>` format and so on.
 
 ## Communication
 
