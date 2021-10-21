@@ -160,7 +160,7 @@ Tower of Hanoi is a mathematical puzzle where we have three rods and N disks. Th
 
 ```
 Java
-class GFG
+class Program
 {
     /*A- Starting rod, B- Temporary rod, C- Destination rod */
     public static void tower_of_hanoi(int n, char from_rod, char to_rod, char temp_rod)
