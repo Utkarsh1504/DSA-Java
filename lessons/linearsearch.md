@@ -34,7 +34,12 @@ Linear search is the simplest search algorithm and often called sequential searc
 <br> [END OF IF]
 - **Step 6:** EXIT
 
-![linear-search](./images/linear-search.gif)
+![linear-search](./images/linear-search.png)
+
+## **Complexity of Algorithm :**
+
+- **Time Complexity :** O(n)
+- **Space Complexity :** O(1)
 
 ## **Code :**
 
@@ -55,7 +60,7 @@ class LinearSearch
     // driver code main method
     public static void main(String args[])
     {
-        int arr[] = { 6, 3, 0, 5, 1, 2, 8, -1, 4 };
+        int arr[] = { 12, 25, 8, 10, 32 };
         int x = 8;
  
         // function call
@@ -71,5 +76,5 @@ class LinearSearch
 ## **Output :**
 
 ```
-Element is present at index : 6
+Element is present at index : 2
 ```
