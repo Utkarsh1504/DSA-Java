@@ -179,6 +179,7 @@ class Program
 ```
 ### Output:-
 
+```yml
 A- Starting tower
 C- Destination tower
 B- Temporary tower
@@ -197,5 +198,5 @@ Disk 3 moved from rod 'B' to rod 'C'
 Disk 1 moved from rod 'A' to rod 'B'
 Disk 2 moved from rod 'A' to rod 'C'
 Disk 1 moved from rod 'B' to rod 'C'
-
+```
 
