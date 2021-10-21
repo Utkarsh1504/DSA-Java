@@ -6,7 +6,6 @@ section: "Recursion"
 description: "learn Recursion from scratch"
 ---
 
-# Recursion:-
 The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called as recursive function. Using recursive algorithm, certain problems can be solved quite easily.
 
 For example, we can define the operation "find your way home" as:
@@ -19,7 +18,7 @@ For example, we can define the operation "find your way home" as:
 
 Here the solution to finding your way home is two steps (three steps). First, we don't go home if we are already home. Secondly, we do a very simple action that makes our situation simpler to solve. Finally, we redo the entire algorithm.
 
-# Here we are going to see some important examples of String Recursion and the Tower of Hanoi using recursion:-
+Here we are going to see some important examples based on strings using Recursion:-
 
 ### 1)String Reverse :-
 
@@ -43,8 +42,7 @@ Approach:-
   from start index 0 to end index(length of string - 1).
 
 
-```
-Java
+```java
 string_rev(String s)
 {
     IF(s = Null or length of s <= 1){
@@ -59,8 +57,7 @@ string_rev(String s)
 
 ### Code Implementation:-
 
-```
-Java
+```java
 class StringReverse
 {
     void string_rev(String s)
@@ -108,8 +105,7 @@ Call the function again(perform recursion) and pass the updated string S as the 
 
 3) ELSE if they are not similar, then call recursion on the string from the next portion of the string.
 
-```
-Java
+```java
 remove_dup(String S)
 {
     IF(length of S <= 1){
@@ -126,8 +122,7 @@ remove_dup(String S)
 
 ### Code Implementation:-
 
-```
-Java
+```java
 import java.io.*;
 class Program {
     public static String remove_dup(String s) {
@@ -158,8 +153,7 @@ Tower of Hanoi is a mathematical puzzle where we have three rods and N disks. Th
 
 ### Code Implementation:-
 
-```
-Java
+```java
 class Program
 {
     /*A- Starting rod, B- Temporary rod, C- Destination rod */
