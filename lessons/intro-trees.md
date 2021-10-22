@@ -6,7 +6,6 @@ section: "Trees"
 description: "learn Tree data-struture from scratch"
 icon: "seedling"
 ---
- Introduction to trees
 
 Tree is a non-linear data structure which organises data in hierarchical form  and is recursive in nature. It is a popular data structure used in wide range of applications. Every element is considered as a node which has a predecessor and a successor. Trees are further classified into many types I.e, Binary Tree, Complete Binary Tree, Perfect Binary Tree etc. 
 
@@ -34,14 +33,19 @@ Structure of this Data Structure is clearly mentioned by its name which is in th
 
 Their are in basic 4 types of Trees 
 
-### *Binary Tree 
+* Binary tree
+* Binary Search tree
+* AVL tree
+* B-tree
+
+### Binary Tree 
 
 Binary tree is the one whose every parent node has atmost 2 children. Number of child nodes can be either 0,1 or 2. 
 Binary Trees can further be classified into more types given below in the diagram.
 
 ![binary_type](./images/binary_type.png)
 
-### *Binary Search Tree 
+### Binary Search Tree 
 
 BST is a lot similar to a binary tree  in which every parent node has at most 2 children. Other than that, BST follows few properties which makes it different from a binary tree. 
 
@@ -53,7 +57,7 @@ The pictorial representation of BST is
 
 ![binary_search_tree](./images/binary_search_tree.png)
 
-### *AVL Tree 
+### AVL Tree 
 
 AVL trees are considered as the variants of binary tree which have the characteristics of both Binary tree and Binary search tree. These trees are self-balanced which means the height of left sub tree and right are sub tree are equal. This balanced is measured in terms of balancing factor. 
 
@@ -67,7 +71,7 @@ Now, let’s understand what is a balancing factor -
 * If a node has a balance factor of 0, it means that the height of the left subtree and the right subtree is equal.
 * If a node has a balance factor of -1, it means that the right subtree is one level higher than the left subtree or the left subtree is one level lower than the right subtree.
 
-### *B-Tree 
+### B-Tree 
 
 It is also known as height-balanced m way tree, where m is the order of the tree. B-tree is more generalised form of a binary search tree.  In the case of a binary tree, the leaf nodes might not be at the same level. However, in the case of a B Tree, all the leaf nodes should be at the same level. 
 
@@ -85,7 +89,7 @@ Traversals are of 3 types
 
 1. **In-order Traversal** - This traversal calls for the sequence of LEFT, ROOT, RIGHT. 
 2. **Pre-order Traversal** - This traversal calls for the sequence of ROOT ,LEFT, RIGHT.
-3. **Post-order traversal** - This traversal calls for the sequence of LEFT, RIGHT, ROOT.
+3. **Post-order Traversal** - This traversal calls for the sequence of LEFT, RIGHT, ROOT.
 
 Now let’s understand these a help of an example
 
