@@ -91,10 +91,10 @@ Now let’s understand these a help of an example
 
 ![traversal](./images/traversal.png)
 
-aking the above tree into consideration -
+Taking the above tree into consideration let's understand how  traversing is done
 
-In-order Traversal (LEFT , ROOT, RIGHT) - Traverse the left sub-tree , visit the root , traverse the right sub-tree which makes the sequence - 1,5,6,10,17,19,21
+In-order Traversal (LEFT , ROOT, RIGHT) - Traverse the left sub-tree , visit the root , traverse the right sub-tree which makes the sequence (1,5,6,10,17,19,21)
 
-Pre-order traversal (ROOT, LEFT , RIGHT) - Visit the root , Traverse the left sub tree , Traverse the right sub tree which makes the sequence - 10,5,1,6,19,17,21
+Pre-order traversal (ROOT, LEFT , RIGHT) - Visit the root , Traverse the left sub tree , Traverse the right sub tree which makes the sequence (10,5,1,6,19,17,21)
 
-Post-order traversal (LEFT,RIGHT,ROOT) - Traverse the left sub tree , Traverse the right sub-tree , visit the root which makes the sequence - 1,6,5,17,21,19,10
+Post-order traversal (LEFT,RIGHT,ROOT) - Traverse the left sub tree , Traverse the right sub-tree , visit the root which makes the sequence (1,6,5,17,21,19,10)
