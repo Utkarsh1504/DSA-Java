@@ -9,11 +9,11 @@ description: "learn maths required in DSA"
 In this article we will cover number theory.
 
 The six topics covered in this article
--Mathmatical Expectation
--Fermat's theoram
--Wilson's theoram
--Lucas theoram
--Chinese Remainder theoram
+-Mathematical Expectation
+-Fermat's theorem
+-Wilson's theorem
+-Lucas theorem
+-Chinese Remainder theorem
 -NP-Completeness
 
 ## **Mathmatical Expectation**
