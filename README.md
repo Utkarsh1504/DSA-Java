@@ -46,7 +46,7 @@
 
 ## **About**
 
-We are building a site which will contain all the DS-Algo related things. It will contain just the relevent concept which are needed to get started from stratch to go upto it's hard parts. It will also contains some assigment question from different-different platforms. It is completely free, open-sourced, everyone can use it to learn, taking notes, doing revision, making tutorial etc. That's all the goal is.
+We are building a site which will contain all the DS-Algo related things. It will contain just the relevent concepts which are needed to get started from scratch to go upto its hard parts. It will also contains some assigment question from different-different platforms. It is completely free, open-sourced, everyone can use it to learn, taking notes, doing revision, making tutorial etc. That's all the goal is.
 
 ## **Getting Started**
 
@@ -55,9 +55,14 @@ For the quick start, you can follow the steps below:
 1. Star <a href="https://github.com/utkarsh1504/DSA-Java" title="this">this</a> repository.
 2. Fork <a href="https://github.com/utkarsh1504/DSA-Java" title="this">this</a> repository.
 3. Clone the **forked** repository.
+4. Set <a href="https://github.com/utkarsh1504/DSA-Java" title="this">this</a> repository as upstream repository. 
 
 ```yml
 git clone https://github.com/<your-github-username>/DSA-Java
+```
+Set upstream command
+```yml
+git remote add upstream https://github.com/Utkarsh1504/DSA-Java.git
 ```
 
 3. Navigate to the project directory.

@@ -12,13 +12,25 @@ Please note that by participating, you are expected to uphold the [Contributor C
 - [Fixing Typos](#fixing-typos)
 - [Improving Lesson](#improving-lesson)
 - [Our Standards](#our-standards)
+- [Markdown Format](#markdown-format)
 - [Communication](#communication)
 
 ---
 
+## Terms
+
+Here are some terms that we will use in this repo:
+
+- `path` needs a leading slash. This will be slug of the lesson
+- `title`- will be the title displayed on the `Table of Contents` and on the page itself
+- `order`- the order of which the item should appear in the table of contents. It should be in `<Number><Capital-letter>` format where the number corresponds to the section itself and the letter corresponds to the order of the lesson inside the section, e.g. 3B means under the section 3 and the order of the lesson will be B(second)
+- `section` - the title of the section that the article is in. Only the first lesson for each section will be used.
+- `description` - a one-to-three sentence summary of the lesson. Used for the meta tag for social shares and SEO. If no description is given, the siteMetadata.description for the site is used.
+- `icon` the Font Awesome icon you want for the home page of the site
+
 ## Lesson
 
-The crux of this site is are the `lesson`. Provided are two examples. Each lesson needs a frontmattter path, order, and title. Generally you should make the path and the file name match for ease of finding it.
+The crux of this site is are the `lesson`. Provided are two examples. Each lesson needs a frontmatter path, order, and title. Generally you should make the path and the file name match for ease of finding it.
 
 - In `Lesson` directory there are various sections. You can start contributing from there.
 - Inside each of the sections `lesson` present in the form of markdown. If you wanted to add a new lesson make a new file with `.md` extension and add at the top it.
@@ -36,17 +48,6 @@ The crux of this site is are the `lesson`. Provided are two examples. Each lesso
 
 - Modify this according to your contribution and go ahead
 - For writing concepts, take a look at the other [lessons]('lesson/Learn-Programming-Language/operator.md') markdown and make sure it is written in a similar way.
-
-## Terms
-
-Here are some terms that we will use in this repo:
-
-- `path` needs a leading slash. This will be slug of the lesson
-- `title`- will be the title displayed on the `Table of Contents` and on the page itself
-- `order`- the order of which the item should appear in the table of contents. should in `<Number><Capital-letter>` format where the number corresponds to the section itself and the letter corresponds to the order of the lesson inside the section, e.g. 3B means under the section 3 and the order of the lesson will be B(second)
-- `section` - the title of the section that the article is in. Only the first lesson for each section will be used.
-- `description` - a one-to-three sentence summary of the lesson. used for the meta tag for social shares and SEO. if no description is given, the siteMetadata.description for the site is used.
-- `icon` the Font Awesome icon you want for the home page of the site
 
 ## Requesting A Lesson
 
@@ -80,6 +81,14 @@ Before you submit your PR, please ensure that they meet the following standard:
 - Content inside the lesson should not be copied or plagarized from any other resources, you need to write your own content using your understanding about the concept.
 - Code example should not copied from anywhere else, you should set example by your own.
 - for adding images and gifs related to the lesson, make sure it is copyright free and not used for commercial purpose. but in case you don't find any image or gif on internet, you can use the [draw.io](draw.io) to make your own images. Images and gif used should be kept in `lesson/images/` directory.
+
+## Markdown Format
+
+Here are some guidelines for writing markdown, In the same fashion you have to write the markdown for the lessons:
+
+- All the main headings should be in `##` or `<h2>` format.
+- please do not use any heading at the start of the lesson, it will be used by default by the frontmatters, so don't start writing your lesson with a heading.
+- All the subheadings should be in `###` or `<h3>` or `####`, `<h4>` format and so on.
 
 ## Communication
 
