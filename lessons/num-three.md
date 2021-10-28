@@ -16,7 +16,7 @@ The six topics covered in this article
 -Chinese Remainder theorem
 -NP-Completeness
 
-## **Mathmatical Expectation**
+## **Mathmatical Exceptation**
 
 Mathematical Expectation is an important concept in Probability Theory.This article attempts to throw some light on this topic by discussing few related mathematical and programming problems.
 
@@ -24,17 +24,19 @@ Mathematical expectation, also known as the expected value, which is the summati
 The mathematical expectation is denoted by the formula:
 > E(X)= Σ (x1p1, x2p2, …, xnpn)
 
-It is important to understand that "expected value" is not same as "most probable value" - rather, it need not even be one of the probable values. For example, in a dice-throw experiment, the expected value,  is not one of the possible outcomes at all.
->The rule of "linearity of of the expectation" says that E[x1+x2] = E[x1] + E[x2].
+It is important to understand that **"expected value"** is not same as **"most probable value"** - rather, it need not even be one of the probable values. For example, in a dice-throw experiment, the expected value,  is not one of the possible outcomes at all.
+>The rule of **"linearity of of the expectation"** says that E[x1+x2] = E[x1] + E[x2].
 
-## **Fermat's Theoram**
+## **Fermat's Theorem**
 
-Fermat's theoram is also known as fermat little theoram.
-Fermat’s little theorem states that if p is a prime number, then for any integer a, the number a^p – a is an integer multiple of p.
+It is also known as Fermat's little theorem.
+Fermat’s little theorem states that if p is a prime number, then for any integer a, the number a^(p) – a is an integer multiple of p.
 > Here p is a prime number ap ≡ a (mod p) 
 
->Take an Example How Fermat’s little theorem works 
-##Examples: 
+>Let's see an Example How Fermat’s little theorem works 
+
+
+**##Examples:** 
  
 
  P = an integer Prime number   
@@ -88,8 +90,7 @@ class Main
 	
 			// If a and m are relatively prime, then
 			// modulo inverse is a^(m-2) mode m
-			System.out.print("Modular multiplicative inverse is "
-											+power(a, m - 2, m));
+			System.out.print("Modular multiplicative inverse is "+ power(a, m - 2, m));
 		}
 	}
 	
@@ -102,22 +103,23 @@ class Main
 	}
 }
 
-## **Wilson's Theoram**
+## **Wilson's Theorem**
 
 Wilson’s theorem states that a natural number p > 1 is a prime number if and only if
-**(p - 1) ! ≡  -1   mod p 
-OR  (p - 1) ! ≡  (p-1) mod p
+**(p-1) ! ≡ -1 mod p**<br> 
+OR **(p-1) ! ≡ (p-1) mod p**
 
-##Examples:
-p  = 5
+**Examples:**
+
+p = 5
 (p-1)! = 24
 24 % 5  = 4
 
-p  = 7
+p = 7
 (p-1)! = 6! = 720
 720 % 7  = 6
 
-**Proof:
+**Proof:**
 It is easy to check the result when n is 2 or 3, so let us assume n > 3. If n is composite, then its positive divisors are among the integers 1, 2, 3, 4, ... , n-1 and it is clear that gcd( (n-1)! , n) > 1, so we can not have (n-1)! = -1 (mod n).
 
 However if n is prime, then each of the above integers are relatively prime to n. So for each of these integers a there is another b such that ab = 1 (mod n). It is important to note that this b is unique modulo n, and that since n is prime, a = b if and only if a is 1 or n-1. Now if we omit 1 and n-1, then the others can be grouped into pairs whose product is one showing
@@ -126,7 +128,7 @@ However if n is prime, then each of the above integers are relatively prime to n
 
 (or more simply (n-2)! = 1 (mod n)). Finally, multiply this equality by n-1 to complete the proof.
 
-## **Lucas Theoram**
+## **Lucas Theorem**
 
 Lucas theorem basically suggests that the value of nCr can be computed by multiplying results of niCri where ni and ri are individual same-positioned digits in base p representations of n and r respectively..
 The idea is to one by one compute niCri for individual digits ni and ri in base p.Since these digits are in base p, we would never need more than O(p) space and time complexity of these individual computations would be bounded by O(p2).
@@ -192,7 +194,7 @@ public static void main(String[] args)
 }
 }
 
-## **Chinese Remainder Theoram**
+## **Chinese Remainder Theorem**
 
 **Chinese Remainder Theorem states that there always exists an x that satisfies given congruences.
 
@@ -251,36 +253,34 @@ class GFG {
 ## **NP-Completeness**
 A problem is in the class NPC if it is in NP and is as hard as any problem in NP. A problem is NP-hard if all problems in NP are polynomial time reducible to it, even though it may not be in NP itself.
 
-NP-hard
+**NP-Hard**
 If a polynomial time algorithm exists for any of these problems, all problems in NP would be polynomial time solvable. These problems are called NP-complete. The phenomenon of NP-completeness is important for both theoretical and practical reasons.
 
-##Definition of NP-Completeness
+#####Definition of NP-Completeness
 A language B is NP-complete if it satisfies two conditions
 
 B is in NP
-
 Every A in NP is polynomial time reducible to B.
 
 If a language satisfies the second property, but not necessarily the first one, the language B is known as NP-Hard. Informally, a search problem B is NP-Hard if there exists some NP-Complete problem A that Turing reduces to B.
 
 The problem in NP-Hard cannot be solved in polynomial time, until P = NP. If a problem is proved to be NPC, there is no need to waste time on trying to find an efficient algorithm for it. Instead, we can focus on design approximation algorithm.
 
-**NP-Complete Problems
+**NP-Completeness Problems**:
 >Following are some NP-Complete problems, for which no polynomial time algorithm is known.
 
  -Determining whether a graph has a Hamiltonian cycle
  -Determining whether a Boolean formula is satisfiable, etc.
  
 **NP-Hard Problems
->The following problems are NP-Hard
-
+- >The following problems are NP-Hard
 -The circuit-satisfiability problem
 -Set Cover
 -Vertex Cover
 -Travelling Salesman Problem
 -In this context, now we will discuss TSP is NP-Complete
 
-**TSP is NP-Complete
+**TSP is NP-Complete**
 
 The traveling salesman problem consists of a salesman and a set of cities. The salesman has to visit each one of the cities starting from a certain one and returning to the same city. The challenge of the problem is that the traveling salesman wants to minimize the total length of the trip
 
