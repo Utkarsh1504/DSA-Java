@@ -135,6 +135,11 @@ Before making pull requests please look at our contributing guidelines. You can 
 
 The **code** is this repo is licensed under the Apache 2.0 license. Feel free to use and share it as per the license.
 
+## Thanks to all the contributors ❤️
+
+<a href = "https://github.com/Utkarsh1504/DSA-Java/graphs/contributors">
+<img src = "https://contrib.rocks/image?repo=Utkarsh1504/DSA-Java"/>
+</a>
 <br>
 
 <div align="center">
