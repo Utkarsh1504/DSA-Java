@@ -13,7 +13,7 @@
 </div>
 
 <div align="center">
-  <img src="./static/readme.svg" alt="ds-algo">
+  <img src="./static/r.svg" alt="ds-algo">
 </div>
 
 <br>
@@ -50,32 +50,42 @@ We are building a site which will contain all the DS-Algo related things. It wil
 
 ## **Getting Started**
 
+You are just 11 step away from making your contribution to this repo.
 For the quick start, you can follow the steps below:
 
 1. Star <a href="https://github.com/utkarsh1504/DSA-Java" title="this">this</a> repository.
 2. Fork <a href="https://github.com/utkarsh1504/DSA-Java" title="this">this</a> repository.
 3. Clone the **forked** repository.
-4. Set <a href="https://github.com/utkarsh1504/DSA-Java" title="this">this</a> repository as upstream repository. 
 
 ```yml
 git clone https://github.com/<your-github-username>/DSA-Java
 ```
-Set upstream command
+
+4. Set <a href="https://github.com/utkarsh1504/DSA-Java" title="this">this</a> repository as upstream repository.
+
 ```yml
 git remote add upstream https://github.com/Utkarsh1504/DSA-Java.git
 ```
 
-3. Navigate to the project directory.
+5. Navigate to the project directory.
 
-```py
+```yml
 cd DSA-Java
 ```
 
-4. Create a new branch.
+6. Pull upstream commits(changes). Always keep your **main** branch updated with the project's **main/master** branch(updated repository).
+
+```yml
+git pull upstream main
+```
+
+7. Create a new branch.
 
 ```yml
 git checkout -b <your_branch_name>
 ```
+
+#### **Project Setup:**
 
 Run the following command to install the required dependencies.
 
@@ -87,23 +97,29 @@ Run the following command to install the required dependencies.
 
 5. <a href="/CONTRIBUTING.md">Contribute</a>
 
-6. Stage your changes and commit
+<br>
+
+8. Stage your changes.
 
 ```yml
 git add .
+```
 
+9. Commit your changes.
+
+```yml
 git commit -m "<your_commit_message>"
 ```
 
-7. Push your local commits to the remote repo.
+10. Push your local commits to the remote repo.
 
 ```yml
 git push -u origin <your_branch_name>
 ```
 
-8. Create a <a href="https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request" title="Pull Request">Pull-Request</a> to `main`.
+11. Create a <a href="https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request" title="Pull Request">Pull-Request</a> to `main`.
 
-9. Congratulations! 🎉 you've made your contribution to <a href="https://github.com/utkarsh1504/DSA-Java" title="DSA-Java">DSA-Java</a>. ✌️ ❤️ 💥
+12. Congratulations! 🎉 you've made your contribution to <a href="https://github.com/utkarsh1504/DSA-Java" title="DSA-Java">DSA-Java</a>. ✌️ ❤️ 💥
 
 <h2 id="contribute">Contributing</h2>
 <p>
