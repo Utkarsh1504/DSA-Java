@@ -26,7 +26,7 @@ operating systems, Graphical User Interfaces(GUI) etc. It supports procedural pr
 **JAVA** another most recommended programming language for Competitive Programming. It is developed by Sun Microsystems and is used to build large class applications. Java works great within corporate environments, although it can be used for small tasks, it's less suited for that. Many popular IDE's and tools are are written and developed in Java such Eclipse, IntelliJ IDEA and NetBeans IDE.
 In this course I will pick Java as a programming language for learning data structures and algorithms. It has various features like OOPs, Functional Programming, Generics, etc. It is relatively more stable than other and it also has multi-threading support. Java is very efficient at memory management and it is very fast.
 
-#### **Java Plateform Independent**
+#### **Java Platform Independent**
 
 As you may have hear from others that Java is a platform independent language, so what does it mean basically lets understand.
 
