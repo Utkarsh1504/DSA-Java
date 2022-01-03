@@ -42,8 +42,6 @@ This course requires some of the prerequisite knowledge of the following:
 
 ## Special Thanks
 
-![kunalOP](./images/kunalOP.jpg)
-
-A big shout out to [Kunal](https://twitter.com/kunalstwt) for his [DSA-Bootcamp-Java](https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ) course. On his Youtube channel, he is teaching this quality-loaded course completely for free. He is currently a developer advocate at [Civo](http://civo.com/), a program manager at DoK Community, an MLH Coach and he is doing a lot, literally a lot of things for the community. I would like to thank him for his hard work and dedication. I personally follow his DSA-Bootcamp-Java course and I am really happy with his teaching style.
+A big shout out to [Kunal](https://twitter.com/kunalstwt) for his [DSA-Bootcamp-Java](https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ) course. On his Youtube channel, he is teaching this quality-loaded course completely for free.
 
 I also want to thank [Brian Holt](https://twitter.com/holtbt) for the idea of this course-site and for allowing me to use his starter. He's a great instructor at [Frontend Masters](https://frontendmasters.com/teachers/brian-holt/), if you want to learn some react and javascript related stuffs go checkout his courses. I'm really grateful for his support.
