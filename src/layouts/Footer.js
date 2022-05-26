@@ -19,7 +19,7 @@ export default function Footer({ twitter, linkedin, github }) {
         ) : null}
         {linkedin ? (
           <li className="social">
-            <a href="https://linkedin.com/in/umishra-1504">
+            <a href="https://linkedin.com/in/umishra1504">
               <Li />
             </a>
           </li>
