@@ -1,0 +1,68 @@
+path,title,order,section,description,icon
+"/introduction","Welcome","1A","Introduction","this is the introduction to the website","search"
+"/intro-programming","Intro to Programming","1B","Introduction","learn Java",
+"/flowchart","Flowchart & Pseudocode","2A","Basics","this is the description that will show up in social shares","code"
+"/java-setup","Java Development Setup","2B","Basics","Intro to java",
+"/firstjavaprogram","First Java Program","2C","Basics","run java",
+"/dataTypes","Learn Data Types","3A","Learn Java","Learn java","coffee"
+"/operators","Operators in Java","3B","Learn Java","Learn java",
+"/io-conditionals","Input/Output & Conditionals","3C","Learn Java","Learn java",
+"/loops","Loops In Java","3D","Learn Java","Learn java",
+"/jumps","Jumps Statements","3E","Learn Java","Learn Java",
+"/functions","Function & Scope","3F","Learn Java","Learn how to use functions and scope",
+"/arrays","Introduction to Arrays","4A","Arrays","arrays","map"
+"/arraylist","ArrayList In Java","4B","Arrays","learn arrays",
+"/print-patterns","Printing Patterns","4C","Arrays","learn Arrays",
+"/bmmv-algorithm","Boyer-Moore Majority Voting Algorithm","4D","Arrays","arrays","map"
+"/subarrays","Subarrays","4E","Arrays","arrays",
+"/jagged-array","Jagged Arrays","4F","Arrays","arrays",
+"/linearsearch","Linear Search","5A","Searching & Sorting","learn Searching algorithms","sort"
+"/binarysearch","Binary Search","5B","Searching & Sorting","learn Searching algorithms",
+"/bubblesort","Bubble Sort","5C","Searching & Sorting","learn Searching n sorting algorithms",
+"/selectionsort","Selection Sort","5D","Searching & Sorting","learn Sorting algorithms",
+"/insertion","Insertion Sort","5E","Searching & Sorting","learn Sorting algorithms",
+"/countsort","Count Sort","5F","Searching & Sorting","learn Sorting algorithms",
+"/radixsort","Radix Sort","5G","Searching & Sorting","learn radix sort algorithms",
+"/cyclesort","Cyclic Sort","5H","Searching & Sorting","learn Sorting algorithms",
+"/practise-question","Practise Questions","5I","Searching & Sorting","learn Searching & sorting algorithms",
+"/intro-string","Intro to Strings","6A","Strings In Depth","learn strings in depth","road"
+"/string-builder","StringBuilder in Java","6B","Strings In Depth","learn strings in depth",
+"/intro-complexity","Complexity Analysis","7A","Space & Time Complexity","learn about time and space complexity for various algorithms","flask"
+"/time-complexity","Time Complexity","7B","Space & Time Complexity","learn about time and space complexity for various algorithms",
+"/space-complexity","Space Complexity","7C","Space & Time Complexity","learn about time and space complexity for various algorithms",
+"/recurrence","Recurrence Relations","7D","Space & Time Complexity","learn about time and space complexity for various algorithms",
+"/time_space_tradeoff","Time Space Tradeoff","7E","Space & Time Complexity","learn about time-space tradeoff",
+"/intro-recursion","Intro to Recursion","8A","Recursion","learn Recursion from scratch","redo"
+"/flow-of-recursion","Flow of Recursion","8B","Recursion","learn Recursion from scratch",
+"/recursion-arrays","Recursion & Array","8C","Recursion","learn Recursion from scratch",
+"/recursion-string","Recursion & Strings","8D","Recursion","learn Recursion from scratch",
+"/mergesort","Merge Sort","8E","Recursion","learn Recursion from scratch",
+"/quicksort","Quick Sort","8F","Recursion","learn Recursion from scratch",
+"/recursion-practise","Standard Practise Questions","8G","Recursion","learn Recursion from scratch",
+"/backtracking","Introduction to Backtracking","9A","BackTracking In Java","learn about backtracking algorithms","sitemap"
+"/backtrack-sudoku","Sudoku Solver","9B","BackTracking In Java","learn about backtracking algorithms",
+"/backtrack-nqueen","N Queens","9C","BackTracking In Java","learn about backtracking algorithms",
+"/backtrack-nknight","N Knights","9D","BackTracking In Java","learn about backtracking algorithms",
+"/backtrack-maze","Maze Problems","9E","BackTracking In Java","learn about backtracking algorithms",
+"/intro-maths","Introduction to Maths in DSA","10A","Maths for DSA","learn maths required in DSA","plus"
+"/bitwise-operator","Complete Bitwise Operators","10B","Maths for DSA","learn maths required in DSA",
+"/num-one","Number Theory Part-A","10C","Maths for DSA","learn maths required in DSA",
+"/num-two","Number Theory Part-B","10D","Maths for DSA","learn maths required in DSA",
+"/num-three","Number Theory Part-C","10E","Maths for DSA","learn maths required in DSA",
+"/intro-oop","Introduction","11A","Object Oriented Programming","complete introduction to object oriented programming","object-ungroup"
+"/this-constructor","this Keyword & Constructor","11B","Object Oriented Programming","complete introduction to object oriented programming",
+"/properties","Properties of OOP","11C","Object Oriented Programming","complete introduction to object oriented programming","object-ungroup"
+"/intro-ds","Introduction to Data Structures","12A","Linked Lists","complete intro to data structures","link"
+"/intro-linkedlist","Introduction to Linked List","12B","Linked Lists","learn Linked list from scratch",
+"/intro-stacks","Intro to Stack","13A","Stacks & Queues","learn stack data-structure from scratch","align-justify"
+"/intro-trees","Intro to Trees","14A","Trees","learn Tree data-struture from scratch","seedling"
+"/intro-binarytree","Intro to Binary Tree","15A","Binary Tree","learn about Binary Tree from scratch","tree"
+"/intro-bst","Intro to BST","16A","Binary Search Tree","learn about Binary Search Tree from scratch","search"
+"/intro-heap","Introduction to Heaps","17A","Heaps","complete introduction to heaps","object-ungroup"
+"/intro-hashmap","Introduction to Hashmap","18A","Hashmap","learn about hashmap from scratch","book"
+"/intro-dp","Introduction to DP","19A","Dynamic Programming","learn about Dynamic Programming","sitemap"
+"/greedy","Introduction to Greedy Algorithms","20A","Greedy Algorithms","complete greedy algorithm",
+"/intro-priorityqueues","Introduction to Priority Queues","21A","Priority Queues","learn about Priority Queues from scratch","braille"
+"/intro-graphs","Introduction to Graphs","22A","Graphs","learn about graph data-structure from scratch","map-signs"
+"/intro-tries","Introduction to Tries","23A","Tries","learn about tries from scratch","share-alt"
+"/assignment","Assignments","24A","Assignments & Practise Question","practise some standard question","question"
