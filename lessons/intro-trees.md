@@ -59,7 +59,7 @@ The pictorial representation of BST is
 
 ### AVL Tree 
 
-AVL trees are considered as the variants of binary tree which have the characteristics of both Binary tree and Binary search tree. These trees are self-balanced which means the height of left sub tree and right are sub tree are equal. This balanced is measured in terms of balancing factor. 
+AVL trees are considered as the variants of binary tree which have the characteristics of both Binary tree and Binary search tree. These trees are self-balanced which means the height of left sub tree and right sub tree are equal. This balanced is measured in terms of balancing factor. 
 
 ![AVL](./images/AVL.png)
 
