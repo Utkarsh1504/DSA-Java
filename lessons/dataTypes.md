@@ -7,7 +7,7 @@ description: "Learn java"
 icon: "coffee"
 ---
 
-So before knowing what are data types. First let's know what are variable and Constants.
+Before getting into data types, let's first familiarize ourselves with variables and constants.
 
 ## Variable
 
