@@ -7,10 +7,10 @@ description: "this is the description that will show up in social shares"
 icon: "code"
 ---
 
-Through this journey we will be learning problem solving approaches, skills and their associated tools. If we have given any problem what we'll do first?
-we first understand the problem and its context and then we try to think of the solution and write down the steps of solution and then we try to convert our solution(idea) into the code.
+Through this journey, we will be learning problem-solving approaches, skills and their associated tools. If we are given any problem, what will we do first?
+we first understand the problem and its context and then we try to think of the solution and write down the steps of the solution and then we try to convert our solution(idea) into the code.
 
-So for writing down the solution we will use flow chart and pseudocode.
+So for writing down the solution, we will use flowchart and pseudocode.
 
 ## **Flowchart**
 
@@ -25,7 +25,7 @@ So for writing down the solution we will use flow chart and pseudocode.
 - **Decision**: The decision of the flowchart.
 - **Arrow**: The arrow that connects the process to the decision.
 
-Lets understand the flowchart by looking at the following flowchart.
+Let's understand the flowchart by looking at the following flowchart.
 [img](#flowchart)
 [img](#flowchart)
 
@@ -34,15 +34,15 @@ Lets understand the flowchart by looking at the following flowchart.
 Decision making is a process of making a choice based on the available options.
 we have decision box, it kind of looks like a kite shape.
 
-so lets see an example:
+so let's see an example:
 
-- check whether number is Odd or even
-- Find largest of three numbers
+- check whether a number is odd or even
+- Find the largest of three numbers
 
 ## **Understanding Loops**
 
 So let suppose we have to print numbers from 1 to n. then how do we do it?
-Obivously we will start from 1 and then after priting 1 we have to think the next number of the sequence, so we'll basically add 1 in the previous number and we'll get the next number, this process will keep repeating until we reach n. and when we reach n then we have to check that we don't write the number which comes after the n. Here you will see you are repeating the process and a loop is formed.
+Obviously we will start from 1 and then after printing 1 we have to think of the next number of the sequence, so we'll basically add 1 in the previous number and we'll get the next number, this process will keep repeating until we reach n. and when we reach n then we have to check that we don't write the number which comes after the n. Here you will see you are repeating the process and a loop is formed.
 
 eg:
 
