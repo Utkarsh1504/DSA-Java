@@ -6,7 +6,7 @@ section: "Introduction"
 description: "learn Java"
 ---
 
-There is a question comes in everyone's mind before getting started with coding or ds algo or Competitive Programming(**cp**) - Which is the best programming language to get started with? And truly it's quite important to figure out the language which is most suitable for you.
+There is a question that comes to everyone's mind before getting started with coding or ds algo or Competitive Programming(**cp**) - Which is the best programming language to get started with? And truly it's quite important to figure out the language which is most suitable for you.
 So we're just going to recommend you two languages-
 
 1. C++
