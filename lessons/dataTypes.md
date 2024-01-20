@@ -7,11 +7,11 @@ description: "Learn java"
 icon: "coffee"
 ---
 
-So before knowing what are data types. First let's know what are variable and Constants.
+Before knowing what data types are, let's learn about variables and constants.
 
 ## Variable
 
-Simply, Variable are placeholder for some data values. when we are creating a variable we are just
+Simply, Variables are placeholders for some data values. When we are creating a variable we are just
 reserving some memory
 locations or reserving some space in memory to store values. In C++, there are different types of variables,eg:
 
@@ -21,9 +21,9 @@ locations or reserving some space in memory to store values. In C++, there are d
 
 ## Constant
 
-As its name suggest **constant**- which does not change, they remain fixed. Basically these are fixed values which
+As its name suggests **constant**- which does not change, they remain fixed. Basically, these are fixed values which
 do not change and it must have to be initialized at the time of creation, we can not assign any new values to
-it later. That's why these are called **literals**, cuz it can not be modified.
+it later. That's why these are called **literals**, cuz they can not be modified.
 
 ## Data Types
 
